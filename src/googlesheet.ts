@@ -33,7 +33,7 @@ export const getValues = async (): Promise<IRecord[]> => {
   const sheet = doc.sheetsByIndex[0];
   const rows = await sheet.getRows();
   const records: IRecord[] = rows.map((e: any): IRecord => {
-    return { github_account: e.github_account, yotas: e.yotas };
+    return { github_account: e.github_account, yotas: e.yotas || 0 };
   });
   return records;
 };

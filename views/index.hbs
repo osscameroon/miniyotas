@@ -1,6 +1,6 @@
 <h1>Miniyotas</h1>
 <ul class="list-group">
 	{{#each records}}
-		<li class="list-group-item">{{this.github_account}}: {{this.yotas}} Yotas </li>
+		<li class="list-group-item"><a href="{{this.github_account}}"><img style="width: 50px" src="{{ this.github_account}}.png"/> {{this.github_account}}</a>: {{this.yotas}} Yotas</li>
 	{{/each}}
 </ul>
