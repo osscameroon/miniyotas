@@ -18,8 +18,14 @@ const getCreds = (): string => {
 
 export interface IRecord {
   github_account: string;
+  github_handle: string;
   yotas: number;
 }
+
+const extractHandleFromGitHubUrl = (url: string): string => {
+  const urlArray: string[] = url?.split("/");
+  return urlArray[urlArray.length - 1];
+};
 
 export const getValues = async (): Promise<IRecord[]> => {
   const creds = JSON.parse(getCreds());
@@ -32,8 +38,16 @@ export const getValues = async (): Promise<IRecord[]> => {
   await doc.loadInfo();
   const sheet = doc.sheetsByIndex[0];
   const rows = await sheet.getRows();
-  const records: IRecord[] = rows.map((e: any): IRecord => {
-    return { github_account: e.github_account, yotas: e.yotas || 0 };
-  });
+  const records: IRecord[] = rows
+    .map((e: any): IRecord => {
+      return {
+        github_account: e.github_account,
+        yotas: e.yotas || 0,
+        github_handle: extractHandleFromGitHubUrl(e.github_account),
+      };
+    })
+    .sort((a: IRecord, b: IRecord): number =>
+      a.github_handle.toLowerCase() > b.github_handle.toLowerCase() ? 1 : -1
+    );
   return records;
 };

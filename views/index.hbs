@@ -1,6 +1,26 @@
-<h1>Miniyotas</h1>
-<ul class="list-group">
-	{{#each records}}
-		<li class="list-group-item"><a href="{{this.github_account}}"><img style="width: 50px" src="{{ this.github_account}}.png"/> {{this.github_account}}</a>: {{this.yotas}} Yotas</li>
-	{{/each}}
-</ul>
+<div class="d-flex justify-content-center">
+	<div style="min-width: 300px; width: 30%;">
+		<div class="d-flex justify-content-center m-5">
+			<h1 style="font-family: 'Poppins', sans-serif; font-weight: 600; color: #103A50">
+				Miniyotas
+			</h1>
+		</div>
+		<ul class="list-group mb-5">
+			{{#each records}}
+				<li class="list-group-item d-flex justify-content-between">
+					<span class="d-flex align-items-end">
+						<a style="text-decoration: none;" href="{{this.github_account}}" target="_blank">
+							<img class="rounded" style="width: 50px;" src="{{ this.github_account}}.png"/>
+						</a>
+						<a style="text-decoration: none;" href="{{this.github_account}}" target="_blank">
+							<span class="ms-3">{{this.github_handle}}</span>
+						</a>
+					</span>
+					<span class="d-flex align-items-end" style="text-align: center">
+						<strong> {{this.yotas}} Yts</strong>
+					</span>
+				</li>
+			{{/each}}
+		</ul>
+	</div>
+</div>
