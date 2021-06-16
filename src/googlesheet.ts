@@ -16,10 +16,11 @@ const getCreds = (): string => {
   return data;
 };
 
-export interface IRecord {
+export type Record = {
   github_account: string;
   github_handle: string;
   yotas: number;
+  grade: string;
 }
 
 const extractHandleFromGitHubUrl = (url: string): string => {
@@ -27,7 +28,7 @@ const extractHandleFromGitHubUrl = (url: string): string => {
   return urlArray[urlArray.length - 1];
 };
 
-export const getValues = async (): Promise<IRecord[]> => {
+export const getValues = async (): Promise<Record[]> => {
   const creds = JSON.parse(getCreds());
 
   const doc = new GoogleSpreadsheet(spreadsheetID);
@@ -38,15 +39,16 @@ export const getValues = async (): Promise<IRecord[]> => {
   await doc.loadInfo();
   const sheet = doc.sheetsByIndex[0];
   const rows = await sheet.getRows();
-  const records: IRecord[] = rows
-    .map((e: any): IRecord => {
+  const records: Record[] = rows
+    .map((e: any): Record => {
       return {
         github_account: e.github_account,
         yotas: e.yotas || 0,
         github_handle: extractHandleFromGitHubUrl(e.github_account),
+        grade: e.grade,
       };
     })
-    .sort((a: IRecord, b: IRecord): number =>
+    .sort((a: Record, b: Record): number =>
       a.github_handle.toLowerCase() > b.github_handle.toLowerCase() ? 1 : -1
     );
   return records;

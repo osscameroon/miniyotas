@@ -1,7 +1,7 @@
 import express from "express";
 import path from "path";
 import exphbs from "express-handlebars";
-import { getValues, IRecord } from "./googlesheet";
+import { getValues, Record } from "./googlesheet";
 
 enum E_ENVIRONMENT {
   dev = "dev",
@@ -24,7 +24,7 @@ app.engine(
 
 app.set("view engine", ".hbs");
 app.get("/", async (req: any, res: any) => {
-  const records: IRecord[] = await getValues();
+  const records: Record[] = await getValues();
 
   res.render("index", {
     records,
