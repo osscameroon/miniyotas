@@ -19,7 +19,6 @@ app.engine(
   exphbs({
     extname: ".hbs",
     defaultLayout: "main",
-    partialsDir: STATIC_FILES_DIRECTORY,
   })
 );
 
