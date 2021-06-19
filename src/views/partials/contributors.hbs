@@ -9,27 +9,31 @@
 	</div>
 </form>
 
-<ul class="list-group mb-5">
-	{{#each records}}
-		<li class="list-group-item d-flex justify-content-between">
-			<span class="d-flex align-items-end">
-				<a style="text-decoration: none;" href="{{this.github_account}}" target="_blank">
-					<img class="rounded" style="width: 50px;" src="{{ this.github_account}}.png"/>
-				</a>
-				<div class="container">
-					<div class="row pb-2">
-						<a class="col" style="text-decoration: none;" href="{{this.github_account}}" target="_blank">
-							<span>{{this.github_handle}}</span>
-						</a>
-					</div>
-					<div class="row" style="font-size: 0.8rem">
-						<span class="col">{{this.grade}}</span>
-					</div>
-				</div>
-			</span>
-			<span class="d-flex align-items-center" style="text-align: center">
-				<strong> {{this.yotas}} Yts</strong>
-			</span>
-		</li>
-	{{/each}}
-</ul>
+<div class="container" style="margin-bottom: 25px">
+    <div class="row g-3">
+        {{#each records}}
+            <div class="col-4">
+                <div class="d-flex justify-content-between dev-card">
+                    <span class="d-flex align-items-end">
+                        <a style="text-decoration: none;" href="{{this.github_account}}" target="_blank">
+                            <img class="rounded" style="width: 50px;" src="{{ this.github_account}}.png"/>
+                        </a>
+                        <div class="container">
+                            <div class="row pb-2">
+                                <a class="col" style="text-decoration: none;" href="{{this.github_account}}" target="_blank">
+                                    <span>{{this.github_handle}}</span>
+                                </a>
+                            </div>
+                            <div class="row" style="font-size: 0.8rem">
+                                <span class="col">{{this.grade}}</span>
+                            </div>
+                        </div>
+                    </span>
+                    <span class="d-flex align-items-center" style="text-align: center">
+                        <strong> {{this.yotas}} Yts</strong>
+                    </span>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
