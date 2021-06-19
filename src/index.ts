@@ -65,6 +65,7 @@ app.get("/shop", async (req: any, res: any) => {
     link: "shop",
   });
 });
+app.use('/views', express.static(__dirname + "/views"))
 
 app.listen(port, () => {
   console.log(`The application is listening on port ${port}`);
