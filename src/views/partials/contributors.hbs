@@ -14,11 +14,18 @@
 				<a style="text-decoration: none;" href="{{this.github_account}}" target="_blank">
 					<img class="rounded" style="width: 50px;" src="{{ this.github_account}}.png"/>
 				</a>
-				<a style="text-decoration: none;" href="{{this.github_account}}" target="_blank">
-					<span class="ms-3">{{this.github_handle}}</span>
-				</a>
+				<div class="container">
+					<div class="row pb-2">
+						<a class="col" style="text-decoration: none;" href="{{this.github_account}}" target="_blank">
+							<span>{{this.github_handle}}</span>
+						</a>
+					</div>
+					<div class="row" style="font-size: 0.7rem">
+						<span class="col">{{this.grade}}</span>
+					</div>
+				</div>
 			</span>
-			<span class="d-flex align-items-end" style="text-align: center">
+			<span class="d-flex align-items-center" style="text-align: center">
 				<strong> {{this.yotas}} Yts</strong>
 			</span>
 		</li>
