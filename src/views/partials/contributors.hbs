@@ -1,11 +1,13 @@
-<div class="input-group d-flex justify-content-center mt-5 mb-5">
-  <div class="form-outline w-75">
-    <input id="search-input" type="search" id="form1" class="form-control" placeholder="search"/>
-  </div>
-  <button type="button" class="btn btn-primary">
-  	  <i class="fa fa-search" aria-hidden="true"></i>
-  </button>
-</div>
+<form>
+	<div class="form-group d-flex justify-content-center mt-5 mb-5">
+  	  <div class="form-outline w-75">
+    	  <input id="search-input" type="text" id="query" name="query" class="form-control" placeholder="search" value="{{query}}"/>
+  	  </div>
+  	  <button type="submit" class="btn btn-primary">
+  	  	  <i class="fa fa-search" aria-hidden="true"></i>
+  	  </button>
+	</div>
+</form>
 
 <ul class="list-group mb-5">
 	{{#each records}}
