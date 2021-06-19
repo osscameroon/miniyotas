@@ -1,0 +1,16 @@
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    {{#if (isLink link "contributors")}}
+      <a class="nav-link active" href="/contributors">Contributors</a>
+    {{else}}
+      <a class="nav-link" href="/contributors">Contributors</a>
+	{{/if}}
+  </li>
+  <li class="nav-item">
+    {{#if (isLink link "shop")}}
+      <a class="nav-link active" href="/shop">Shop</a>
+    {{else}}
+      <a class="nav-link" href="/shop">Shop</a>
+	{{/if}}
+  </li>
+</ul>

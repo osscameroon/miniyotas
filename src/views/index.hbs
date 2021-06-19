@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-center">
+	<div style="min-width: 300px; width: 30%;">
+		<div class="d-flex justify-content-center m-5">
+			<h1 style="font-family: 'Poppins', sans-serif; font-weight: 600; color: #103A50">
+				Miniyotas
+			</h1>
+		</div>
+		{{>tabs}}
+		{{#if (isLink link "contributors") }}
+			{{>contributors}}
+		{{/if}}
+		{{#if (isLink link "shop") }}
+			{{>shop}}
+		{{/if}}
+	</div>
+</div>

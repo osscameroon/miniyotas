@@ -1,0 +1,26 @@
+<div class="input-group d-flex justify-content-center mt-5 mb-5">
+  <div class="form-outline w-75">
+    <input id="search-input" type="search" id="form1" class="form-control" placeholder="search"/>
+  </div>
+  <button type="button" class="btn btn-primary">
+  	  <i class="fa fa-search" aria-hidden="true"></i>
+  </button>
+</div>
+
+<ul class="list-group mb-5">
+	{{#each records}}
+		<li class="list-group-item d-flex justify-content-between">
+			<span class="d-flex align-items-end">
+				<a style="text-decoration: none;" href="{{this.github_account}}" target="_blank">
+					<img class="rounded" style="width: 50px;" src="{{ this.github_account}}.png"/>
+				</a>
+				<a style="text-decoration: none;" href="{{this.github_account}}" target="_blank">
+					<span class="ms-3">{{this.github_handle}}</span>
+				</a>
+			</span>
+			<span class="d-flex align-items-end" style="text-align: center">
+				<strong> {{this.yotas}} Yts</strong>
+			</span>
+		</li>
+	{{/each}}
+</ul>
