@@ -1,8 +1,8 @@
 <div class="container mt-5" style="margin-bottom: 25px">
     <div class="row g-5">
         {{#each items}}
-            <div class="col-md-3">
-              <div class="d-flex justify-content-center card h-100" style="width: 18rem;">
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card h-100" style="width: 18rem;">
                 {{#if this.github_account}}
                   <img style="height: 250px" class="rounded m-3" src="{{this.github_account}}.png" class="card-img-top" alt="image">
                 {{else}}
