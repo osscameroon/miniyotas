@@ -4,7 +4,7 @@
   "description": "minimalistic version of osscameroon recognition system",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && node ./dist",
+    "start": "yarn build && node ./dist",
     "dev": "ENVIRONMENT=dev nodemon ./src/index.ts",
     "build": "rm -rf ./dist/views; cp -R ./src/views ./dist/; tsc --project ./",
     "test": "echo \"Error: no test specified\" && exit 1"
