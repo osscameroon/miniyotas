@@ -1,1 +1,29 @@
-<div> my shop </div>
+<div class="container mt-5" style="margin-bottom: 25px">
+    <div class="row g-5">
+        {{#each items}}
+            <div class="col-md-3">
+              <div class="d-flex justify-content-center card h-100" style="width: 18rem;">
+                {{#if this.github_account}}
+                  <img style="height: 250px" class="rounded m-3" src="{{this.github_account}}.png" class="card-img-top" alt="image">
+                {{else}}
+                  <img style="height: 250px" class="rounded m-3" src="{{this.image}}" class="card-img-top" alt="image">
+                {{/if}}
+                <div class="card-body">
+                    <h5 class="card-title">{{this.title}}</h5>
+                  <p class="card-text">{{this.description}}</p>
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span>{{this.price}} Yts</span>
+                    {{# if this.available}}
+                      <a href="#" class="btn btn-primary">Buy</a>
+                    {{else}}
+                      <button type="button" class="btn btn-secondary" disabled> Unavailable</a>
+                    {{/if}}
+                  </div>
+                </div>
+              </div>
+            </div>
+        {{/each}}
+    </div>
+</div>

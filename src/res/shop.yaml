@@ -1,0 +1,92 @@
+items:
+  - title: Join OSS Cameroon admin meeting
+    description: |
+      We give you the opportunity to join one of OSS Cameroon's weekly meetings.
+      you will meet us and can ask any question you want.
+    price: 1000
+    count: 4
+    available: true
+    image: default.svg
+
+  - title: 1h Mentoring session with Sanix
+    description: |
+      Get a mentoring session with Sanix Darker our Senior Developer
+    price: 1500
+    count: 5
+    available: true
+    image: default.svg
+    github_handle: Sanix-Darker
+    github_account: https://github.com/Sanix-Darker
+
+  - title: 1h Mentoring session with Elhmn
+    description: |
+      Get a mentoring session with Elhmn
+    price: 1500
+    count: 5
+    available: true
+    image: default.svg
+    github_handle: elhmn
+    github_account: https://github.com/elhmn
+
+  - title: OSS Cameroon stickers
+    description: |
+      Get our OSS Cameroon stikers
+    price: 1500
+    count: 5
+    image: default.svg
+    available: false
+
+  - title: Yotas stickers
+    description: |
+      Get our Yotas stickers
+    price: 1500
+    count: 5
+    image: default.svg
+    available: false
+
+  - title: Oss Cameroon t-shirts
+    description: |
+      Get an Oss Cameroon t-shirt
+    price: 1500
+    count: 5
+    image: default.svg
+    available: false
+
+  - title: Oss Cameroon Sweat shirt
+    description: |
+      Get an Oss Cameroon t-shirt
+    price: 1500
+    count: 5
+    image: default.svg
+    available: false
+
+  - title: Raspberry PI
+    description: |
+      A Raspberry PI you can use for your experiments
+    price: 1500
+    count: 5
+    image: raspberry_pi.jpeg
+    available: false
+
+  - title: 1 month of internet connection
+    description: |
+      We offer you a internet connection subsciption for a full month
+    price: 1500
+    count: 5
+    image: default.svg
+    available: false
+
+  - title: 1 coworking place at ActiveSpace Douala
+    description: |
+       Coworking place at ActiveSpace Douala
+    price: 1500
+    count: 4
+    image: default.svg
+    available: true
+
+  - title: Choose your own grade for OSS Cameroon
+    description: |
+       You can set your own grade at OSS Cameroon
+    price: 1500
+    image: default.svg
+    available: true

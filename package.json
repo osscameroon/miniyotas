@@ -6,7 +6,7 @@
   "scripts": {
     "start": "yarn build && node ./dist",
     "dev": "ENVIRONMENT=dev nodemon ./src/index.ts",
-    "build": "rm -rf ./dist/views; cp -R ./src/views ./dist/; tsc --project ./",
+    "build": "rm -rf ./dist/views ./dist/res; cp -R ./src/views ./src/res ./dist/; tsc --project ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +23,8 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2",
     "fuse.js": "^6.4.6",
-    "google-spreadsheet": "^3.1.15"
+    "google-spreadsheet": "^3.1.15",
+    "yaml": "^1.10.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.12",

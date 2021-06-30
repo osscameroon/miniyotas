@@ -1,4 +1,5 @@
 import { GoogleSpreadsheet } from "google-spreadsheet";
+import { extractHandleFromGitHubUrl } from "./helpers/github";
 import fs from "fs";
 
 const serviceAccount = ".secrets/service-account.json";
@@ -22,11 +23,6 @@ export type Record = {
   yotas: number;
   grade: string;
 }
-
-const extractHandleFromGitHubUrl = (url: string): string => {
-  const urlArray: string[] = url?.split("/");
-  return urlArray[urlArray.length - 1];
-};
 
 export const getValues = async (): Promise<Record[]> => {
   const creds = JSON.parse(getCreds());

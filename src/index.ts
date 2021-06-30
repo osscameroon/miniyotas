@@ -2,6 +2,7 @@ import express from "express";
 import exphbs from "express-handlebars";
 import * as helpers from "./helpers/handlebars";
 import { getValues, Record } from "./googlesheet";
+import {getShop, Item, Shop} from "./shop";
 import Fuse from "fuse.js";
 
 enum E_ENVIRONMENT {
@@ -58,14 +59,18 @@ const handleContributors = async (req: any, res: any) => {
 app.get("/", handleContributors);
 app.get("/contributors", handleContributors);
 app.get("/shop", async (req: any, res: any) => {
-  const records: Record[] = await getValues();
+  const shop: Shop = getShop();
+  const items: Item[] | undefined = shop?.items;
+
+  console.log("items: ", items);
 
   res.render("index", {
-    records,
+    items,
     link: "shop",
   });
 });
 app.use('/views', express.static(__dirname + "/views"))
+app.use('/res', express.static(__dirname + "/res"))
 
 app.listen(port, () => {
   console.log(`The application is listening on port ${port}`);
