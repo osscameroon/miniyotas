@@ -1,6 +1,8 @@
 # miniyotas
 minimalistic version of our reward system, yotas.
 
+website: [miniyotas.osscameroon.com](https//miniyotas.osscameroon.com)
+
 ## Dependency
 You might need to install `yarn` and a `node` version >= 15 
 
