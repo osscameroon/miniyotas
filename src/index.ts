@@ -68,8 +68,6 @@ app.get("/shop", async (req: any, res: any) => {
   const shop: Shop = getShop();
   const items: Item[] | undefined = shop?.items;
 
-  console.log("items: ", items);
-
   res.render("index", {
     items,
     link: "shop",
