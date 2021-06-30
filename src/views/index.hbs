@@ -1,11 +1,18 @@
 <div class="d-flex justify-content-center">
 	<div class="container-fluid">
-		<div class="d-flex justify-content-center m-5">
+		<div class="d-flex justify-content-center mt-5 mb-3">
 			<img alt="OSS logo" src="/views/media/oss.30b6553d.svg" style="height:50px">
 			<h1 class="ms-3" style="font-family: 'Poppins', sans-serif; font-weight: 600; color: #2F80ED">
 				Miniyotas
 			</h1>
 		</div>
+
+		<div class="d-flex justify-content-center mb-5">
+			<a href="https://opencollective.com/osscameroon/donate" target="_blank">
+  	  	  	  <img src="https://opencollective.com/webpack/donate/button@2x.png?color=white" width=250 />
+			</a>
+		</div>
+
 		{{>tabs}}
 		{{#if (isLink link "contributors") }}
 			{{>contributors}}
