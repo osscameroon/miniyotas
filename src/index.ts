@@ -14,6 +14,11 @@ enum E_ENVIRONMENT {
 const port: number = 3000;
 const app = express();
 
+const getCurrentYear = () => {
+  const d = new Date();
+  return d.getFullYear();
+}
+
 //Set view path
 app.set("views", __dirname + "/views");
 app.engine(
@@ -53,6 +58,7 @@ const handleContributors = async (req: any, res: any) => {
     records,
     link: "contributors",
     query,
+    currentYear: getCurrentYear(),
   });
 };
 
@@ -67,6 +73,7 @@ app.get("/shop", async (req: any, res: any) => {
   res.render("index", {
     items,
     link: "shop",
+    currentYear: getCurrentYear(),
   });
 });
 app.use('/views', express.static(__dirname + "/views"))
