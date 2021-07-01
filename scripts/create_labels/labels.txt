@@ -1,0 +1,5 @@
+{"name":"5 Yotas","color":"1DB4E9", "description": "will provide you 5 yotas"}
+{"name":"10 Yotas","color":"019A79", "description": "will provide you 10 yotas"}
+{"name":"15 Yotas","color":"A86542", "description": "will provide you 15 yotas"}
+{"name":"25 Yotas","color":"F97221", "description": "will provide you 25 yotas"}
+{"name":"40 Yotas","color":"6AC41A", "description": "will provide you 40 yotas (Assign this label exceptionnally)"}
