@@ -25,7 +25,7 @@ export interface Shop {
 const formatItems = (shop :Shop): Item[] | undefined => {
   let items = shop?.items?.map((i: Item): Item => ({
       ...i,
-      image: "/res/imgs/" + "raspberr_pi.jpeg",
+      image: "/res/imgs/"+ i.image,
       github_handle: extractHandleFromGitHubUrl(i.github_handle ?? ""),
     }));
 
