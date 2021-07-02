@@ -39,8 +39,7 @@ jobs:
           username: ${{ secrets.DROPLET_DEPLOY_USERNAME }}
           key: ${{ secrets.DROPLET_DEPLOY_SSHKEY }}
           source: dist.tar
-          target: /home/deploy/miniyotas/
-          strip_components: 1
+          target: /home/deploy/miniyotas
           overwrite: true
 
       - name: Executing remote  command
@@ -49,4 +48,4 @@ jobs:
           host: ${{ secrets.DROPLET_HOST }}
           username: ${{ secrets.DROPLET_DEPLOY_USERNAME }}
           key: ${{ secrets.DROPLET_DEPLOY_SSHKEY }}
-          script: cd /home/deploy/miniyotas/dist && tar -xvf dist.tar && rm -rf dist.tar
+          script: cd /home/deploy/miniyotas && tar -xvf dist.tar && rm -rf dist.tar
