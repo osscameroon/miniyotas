@@ -1,9 +1,7 @@
-name: miniyotas deploy
+name: miniyotas deploys
 
 on:
   push:
-    paths:
-      - .github/workflows/miniyotas-deploy.yaml
     branches:
       - main
       - add-miniyotas-cd
