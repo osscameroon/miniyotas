@@ -15,37 +15,10 @@ jobs:
         with:
           node-version: '15'
 
-      - name: Build website
-        run: yarn install && yarn build
-
-      - name: Create archive
-# multistring env variables check this out
-# https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-commands-for-github-actions#multiline-strings
-        run: |
-          tar -cvf dist.tar dist
-      - name: Remove current deployment
-        uses: appleboy/ssh-action@master
-        continue-on-error: true
-        with:
-          host: ${{ secrets.DROPLET_HOST }}
-          username: ${{ secrets.DROPLET_DEPLOY_USERNAME }}
-          key: ${{ secrets.DROPLET_DEPLOY_SSHKEY }}
-          script: cd /home/deploy/miniyotas/ && mv dist dist_old
-
-      - name: Copy file via scp
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.DROPLET_HOST }}
-          username: ${{ secrets.DROPLET_DEPLOY_USERNAME }}
-          key: ${{ secrets.DROPLET_DEPLOY_SSHKEY }}
-          source: dist.tar
-          target: /home/deploy/miniyotas
-          overwrite: true
-
       - name: Executing remote  command
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DROPLET_HOST }}
           username: ${{ secrets.DROPLET_DEPLOY_USERNAME }}
           key: ${{ secrets.DROPLET_DEPLOY_SSHKEY }}
-          script: cd /home/deploy/miniyotas && tar -xvf dist.tar && rm -rf dist.tar
+          script: cd /home/deploy/miniyotas && git stash; git pull --rebase origin main; git stash apply && yarn install && yarn build && pm2 restart 0 && pm2 save
