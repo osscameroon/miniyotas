@@ -3,7 +3,7 @@ items:
     description: |
       We give you the opportunity to join one of OSS Cameroon's weekly meetings.
       you will meet us and can ask any question you want.
-    price: 1000
+    price: 50
     count: 4
     available: true
     image: default.svg
@@ -11,8 +11,7 @@ items:
   - title: 1h Mentoring session with Sanix
     description: |
       Get a mentoring session with Sanix Darker our Senior Developer
-    price: 1500
-    count: 5
+    price: 20
     available: true
     image: default.svg
     github_handle: Sanix-Darker
@@ -21,17 +20,34 @@ items:
   - title: 1h Mentoring session with Elhmn
     description: |
       Get a mentoring session with Elhmn
-    price: 1500
-    count: 5
+    price: 5
     available: true
     image: default.svg
     github_handle: elhmn
     github_account: https://github.com/elhmn
 
+  - title: 1h Mentoring session with Eric
+    description: |
+      Get a mentoring session with Eric
+    price: 20
+    available: true
+    image: default.svg
+    github_handle: tericcabrel
+    github_account: https://github.com/tericcabrel
+
+  - title: 1h Mentoring session with Gtindo
+    description: |
+      Get a mentoring session with Yvan
+    price: 20
+    available: true
+    image: default.svg
+    github_handle: gtindo
+    github_account: https://github.com/gtindo
+
   - title: OSS Cameroon stickers
     description: |
       Get our OSS Cameroon stikers
-    price: 1500
+    price: N/A
     count: 5
     image: default.svg
     available: false
@@ -39,7 +55,7 @@ items:
   - title: Yotas stickers
     description: |
       Get our Yotas stickers
-    price: 1500
+    price: N/A
     count: 5
     image: default.svg
     available: false
@@ -47,7 +63,7 @@ items:
   - title: Oss Cameroon t-shirts
     description: |
       Get an Oss Cameroon t-shirt
-    price: 1500
+    price: N/A
     count: 5
     image: default.svg
     available: false
@@ -55,7 +71,7 @@ items:
   - title: Oss Cameroon Sweat shirt
     description: |
       Get an Oss Cameroon t-shirt
-    price: 1500
+    price: N/A
     count: 5
     image: default.svg
     available: false
@@ -63,7 +79,7 @@ items:
   - title: Raspberry PI
     description: |
       A Raspberry PI you can use for your experiments
-    price: 1500
+    price: N/A
     count: 5
     image: raspberry_pi.jpeg
     available: false
@@ -71,22 +87,22 @@ items:
   - title: 1 month of internet connection
     description: |
       We offer you a internet connection subsciption for a full month
-    price: 1500
+    price: 100
     count: 5
     image: default.svg
-    available: false
+    available: true
 
   - title: 1 coworking place at ActiveSpace Douala
     description: |
        Coworking place at ActiveSpace Douala
-    price: 1500
-    count: 4
+    price: 90
+    count: 3
     image: default.svg
     available: true
 
   - title: Choose your own grade for OSS Cameroon
     description: |
        You can set your own grade at OSS Cameroon
-    price: 1500
+    price: 120
     image: default.svg
     available: true
