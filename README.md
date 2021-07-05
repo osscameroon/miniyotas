@@ -11,3 +11,12 @@ Yotas are set by one of OSS Cameroon admin on this [spreadsheet](https://docs.go
 
 ## How to run locally
 Run `yarn dev`
+
+## How do you earn yotas
+
+A contributor can earn yotas by contributing on our open source projects.
+He can raise an Issue, or submit a pull request to any of our project and potentially earn yotas.
+
+** Yotas distribution grid **
+- `1 Yota` for raising an `Issue`
+- `5 Yotas`, `10 yotas`, `15 yotas`, `25 yotas`, `40 yotas` depending on the effort required to raise a `Pull request` or `solve an Issue`
