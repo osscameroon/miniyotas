@@ -64,6 +64,12 @@ const handleContributors = async (req: any, res: any) => {
 
 app.get("/", handleContributors);
 app.get("/contributors", handleContributors);
+app.get("/v1/api/records", async (req: any, res: any) => {
+  let records: Record[] = await getValues();
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify(records, null, 3));
+});
+
 app.get("/shop", async (req: any, res: any) => {
   const shop: Shop = getShop();
   const items: Item[] | undefined = shop?.items;
