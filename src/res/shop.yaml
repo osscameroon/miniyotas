@@ -110,6 +110,6 @@ items:
   - title: Flutter Book (French)
     description: |
       Développez vos applications mobiles multiplateformes avec Dart (470 pages)
-    price: 100
+    price: 50
     image: flutter-book.jpg
     available: true
