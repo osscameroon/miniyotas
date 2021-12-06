@@ -60,25 +60,9 @@ items:
     github_handle: gtindo
     github_account: https://github.com/gtindo
 
-  - title: OSS Cameroon stickers
-    description: |
-      Get our OSS Cameroon stikers
-    price: N/A
-    count: 5
-    image: default.svg
-    available: false
-
   - title: Yotas stickers
     description: |
       Get our Yotas stickers
-    price: N/A
-    count: 5
-    image: default.svg
-    available: false
-
-  - title: Oss Cameroon t-shirts
-    description: |
-      Get an Oss Cameroon t-shirt
     price: N/A
     count: 5
     image: default.svg
