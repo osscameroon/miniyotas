@@ -1,4 +1,12 @@
 items:
+  - title: Oss cameroon t-shirt
+    description: |
+      You will get an osscameroon t-shirt
+    price: 150
+    count: 4
+    available: true
+    image: tshirt.jpg
+
   - title: Join OSS Cameroon admin meeting
     description: |
       We give you the opportunity to join one of OSS Cameroon's weekly meetings.
