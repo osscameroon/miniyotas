@@ -7,6 +7,14 @@ items:
     available: true
     image: tshirt.jpg
 
+  - title: Oss cameroon stickers
+    description: |
+      A bundle of 4 osscameroon stickers
+    price: 50
+    count: 4
+    available: true
+    image: stickers.jpg
+
   - title: Join OSS Cameroon admin meeting
     description: |
       We give you the opportunity to join one of OSS Cameroon's weekly meetings.
