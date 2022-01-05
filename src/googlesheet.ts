@@ -39,7 +39,7 @@ export const getFixtureValues = (): Record[] => {
       return {
         github_account: `https://github.com/${handle}`,
         yotas: getRandomIntInclusive(0, 500),
-        github_handle: extractHandleFromGitHubUrl(handle),
+        github_handle: handle,
         grade: grades[getRandomIntInclusive(0, grades.length - 1)],
       };
   }
