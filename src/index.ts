@@ -5,12 +5,6 @@ import { getValues, Record } from "./googlesheet";
 import {getShop, Item, Shop} from "./shop";
 import Fuse from "fuse.js";
 
-enum E_ENVIRONMENT {
-  dev = "dev",
-  stage = "stage",
-  prod = "production",
-}
-
 const port: number = 3000;
 const app = express();
 
