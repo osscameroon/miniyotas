@@ -84,12 +84,22 @@ app.get("/v1/api/records", async (req: any, res: any) => {
 
 app.get("/shop", async (req: any, res: any) => {
   const shop: Shop = getShop();
-  const items: Item[] | undefined = shop?.items;
+  const shopItems: Item[] = shop?.items ?? [];
+  const query = req.query.query || "";
+  const {count,items,interval} = paginate(shopItems,parseInt(req.query.page) || 1);
+  const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
 
   res.render("index", {
+    fullUrl,
+    query,
     items,
     link: "shop",
     currentYear: getCurrentYear(),
+    count,
+    interval,
+    hasParams: fullUrl.includes('?'),
+    current: parseInt(req.query.page) || 1,
+    pages: Math.ceil(count/limit),
   });
 });
 app.use('/views', express.static(__dirname + "/views"))
