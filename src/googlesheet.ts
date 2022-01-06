@@ -24,7 +24,35 @@ export type Record = {
   grade: string;
 }
 
+const getRandomIntInclusive = (min: number, max: number): number => {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
+}
+
+export const getFixtureValues = (): Record[] => {
+  const grades =  ["member", "admin", "sponsor"];
+  const handles = ["elhmn", "Sanix-Darker", "osscameroon"];
+
+  const records: Record[] = Array.from(Array(100).keys()).map((): Record => {
+    const handle = handles[getRandomIntInclusive(0, handles.length - 1)]
+      return {
+        github_account: `https://github.com/${handle}`,
+        yotas: getRandomIntInclusive(0, 500),
+        github_handle: handle,
+        grade: grades[getRandomIntInclusive(0, grades.length - 1)],
+      };
+  }
+  );
+
+  return records;
+}
+
 export const getValues = async (): Promise<Record[]> => {
+  if (process.env.ENVIRONMENT === "dev") {
+       return getFixtureValues()
+  }
+
   const creds = JSON.parse(getCreds());
 
   const doc = new GoogleSpreadsheet(spreadsheetID);
