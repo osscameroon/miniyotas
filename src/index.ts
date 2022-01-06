@@ -6,6 +6,7 @@ import {getShop, Item, Shop} from "./shop";
 import Fuse from "fuse.js";
 
 const port: number = 3000;
+const limit: number  = 12;
 const app = express();
 
 const getCurrentYear = () => {
@@ -42,17 +43,34 @@ const getRecordsMatchingQuery = (query: string, records: Record[]): Record[] => 
   });
 };
 
+const paginate = (items: Item[],page: number) => {
+  const count = items.length;
+  const startIndex = (page - 1) * limit;
+  const endIndex  = page * limit;
+  items = items.slice(startIndex,endIndex);
+  const interval = (Number(page) > 5 ? Number(page) - 4 : 1);
+  return {count,items,interval};
+};
+
 const handleContributors = async (req: any, res: any) => {
   const query = req.query.query || "";
   let records: Record[] = await getValues();
 
   records = getRecordsMatchingQuery(query, records);
+  const {count,items,interval} = paginate(records,parseInt(req.query.page) || 1);
+  const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
 
   res.render("index", {
-    records,
+    fullUrl,
+    records: items,
     link: "contributors",
     query,
     currentYear: getCurrentYear(),
+    count,
+    interval,
+    hasParams: fullUrl.includes('?'),
+    current: parseInt(req.query.page) || 1,
+    pages: Math.ceil(count/limit),
   });
 };
 
