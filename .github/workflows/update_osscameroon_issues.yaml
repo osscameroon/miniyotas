@@ -1,0 +1,34 @@
+name: telegram recommend yotas issues
+on:
+  push:
+    branches:
+      - main
+      - add-osscameroon-issues-file
+#   schedule:
+#     - cron: "30 17 * * 5"
+
+jobs:
+  update-osscameroon-issues:
+    defaults:
+      run:
+        working-directory: ./.github/workflows/update_osscameroon_issues
+
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: get yotas issues
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+
+        run: |
+          ./get_yotas_issues.sh > osscameroon_issues.json
+          pwd
+          rm -rf ../../../src/res/osscameroon_issues.json
+          cp osscameroon_issues.json ../../../src/res/
+
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add ../../../src/res/osscameroon_issues.json
+          git push origin HEAD:master
