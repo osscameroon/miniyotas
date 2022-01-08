@@ -1,0 +1,560 @@
+[
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/223",
+    "title": "Add link in the footer",
+    "author": "Theryx",
+    "labels": [
+      "5 Yotas"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/180",
+    "title": "Try to send out a message to a telegram channel. Maybe for the beginning send the message to a dummy channel",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/179",
+    "title": "Fetch the data from the `gcloud/datastore`.",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/178",
+    "title": "Write a recommendation algorithm that choose an opensource project from the list and then send out a message to a dummy channel depending on certain criterias.",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/177",
+    "title": "Setup the recommendation-bot repository. the bot source code shoulbe stored in the `./bots` folder right at the root of the `osscameroon-website` github repository.",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/163",
+    "title": "Create a telegram bot that will suggest new open source projects for the community to check out",
+    "author": "elhmn",
+    "labels": [
+      "feature"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/155",
+    "title": "[Join US] button should invite visitor to provide his github username",
+    "author": "wilcoln",
+    "labels": [
+      "feature",
+      "backend",
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/141",
+    "title": "Return proper error http status, this will be useful for integration tests and frontend integration",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/124",
+    "title": "Get a list of language used by github users",
+    "author": "elhmn",
+    "labels": [
+      "feature",
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/123",
+    "title": "add documentation for the api that describes its dependencies and how to set it up",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/97",
+    "title": "Live Chart of the growing of the hashtag",
+    "author": "Sanix-Darker",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/96",
+    "title": "Top tweet Endpoint from the api",
+    "author": "Sanix-Darker",
+    "labels": [
+      "feature",
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-website/issues/78",
+    "title": "Update Search section on home page with advanced filters",
+    "author": "gtindo",
+    "labels": [
+      "good first issue",
+      "frontend",
+      "15 Yotas"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/23",
+    "title": "Quizo",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/22",
+    "title": "osscameroon bug hunting monthly challenge",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/21",
+    "title": "osscameroon games telegram group",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/20",
+    "title": "Links.cm",
+    "author": "wdjopa",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/19",
+    "title": "Implementation of quantum computing community",
+    "author": "w4b4l",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/12",
+    "title": "Django Builder",
+    "author": "jefcolbi",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/9",
+    "title": "OSSCameroon page on medium",
+    "author": "guediagael",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/8",
+    "title": "Broken Link Checker",
+    "author": "tericcabrel",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/7",
+    "title": "Data-requester (tbc?)",
+    "author": "afranck64",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/6",
+    "title": "HawaBot",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/5",
+    "title": "Camer online PII management (or something else...I'm not  good with names)",
+    "author": "guediagael",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/4",
+    "title": "Yotas",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/3",
+    "title": "On nous a cut",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/2",
+    "title": "CM AppStore",
+    "author": "Geekles007",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/1",
+    "title": "jsGenerator",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/85",
+    "title": "Design the organization creation page",
+    "author": "gtindo",
+    "labels": [
+      "Design"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/83",
+    "title": "As a user I want to view a list of articles of an organisation on the home page.",
+    "author": "gtindo",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/82",
+    "title": "As a user I want to authenticate with my github account",
+    "author": "gtindo",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/81",
+    "title": "A a user I want to view a list of organisations on the home page",
+    "author": "gtindo",
+    "labels": [
+      "Frontend",
+      "Backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/76",
+    "title": "Integration of the Hompage following the figma design",
+    "author": "gtindo",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/60",
+    "title": "Linter error",
+    "author": "Sanix-Darker",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/50",
+    "title": "Design for authentication, articles, order management and organisation creation",
+    "author": "gtindo",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/49",
+    "title": "Endpoints for authentication, articles, order management and organisation creation",
+    "author": "gtindo",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/41",
+    "title": "Specifications of the API",
+    "author": "gtindo",
+    "labels": [
+      "Docs"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/34",
+    "title": "Wireframes and proper design following flow charts",
+    "author": "gtindo",
+    "labels": [
+      "UI/UX"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/31",
+    "title": "Make the flow chart for all users stories",
+    "author": "gtindo",
+    "labels": [
+      "Roadmap",
+      "UI/UX",
+      "Design"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/30",
+    "title": "Design The API",
+    "author": "gtindo",
+    "labels": [
+      "Roadmap",
+      "Design"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/29",
+    "title": "CI/CD pipelines setup",
+    "author": "gtindo",
+    "labels": [
+      "Roadmap",
+      "DevOps"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/25",
+    "title": "A clear schema(image) of the Database",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/24",
+    "title": "Setup integration tests for the api",
+    "author": "elhmn",
+    "labels": [
+      "Backend",
+      "DevOps"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/23",
+    "title": "Add setup a docker-compose file to run the api locally with along with its postgres sql database",
+    "author": "elhmn",
+    "labels": [
+      "Backend",
+      "DevOps"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/22",
+    "title": "Add api docker image to build and push the api container image",
+    "author": "elhmn",
+    "labels": [
+      "DevOps"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/21",
+    "title": "Add Frontend Docker image build and push workflow",
+    "author": "elhmn",
+    "labels": [
+      "DevOps"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/20",
+    "title": "Setup frontend tests",
+    "author": "elhmn",
+    "labels": [
+      "DevOps"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/19",
+    "title": "Setup frontend linter and frontend lint action",
+    "author": "elhmn",
+    "labels": [
+      "DevOps"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/14",
+    "title": "Set up the connection between yotas-api and yotas-webhook",
+    "author": "Sanix-Darker",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/13",
+    "title": "Add Yotas-WebHook to the project",
+    "author": "Sanix-Darker",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/11",
+    "title": "Create Migrations",
+    "author": "Sanix-Darker",
+    "labels": [
+      "Backend",
+      "Database"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/9",
+    "title": "Organization creation and Link to Github accounts",
+    "author": "gtindo",
+    "labels": [
+      "Roadmap",
+      "Frontend",
+      "Backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/yotas/issues/8",
+    "title": "Users authentication and account creation",
+    "author": "gtindo",
+    "labels": [
+      "Roadmap",
+      "Frontend",
+      "Backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-blog/issues/50",
+    "title": "We should post a message when a new article is added to the blog",
+    "author": "elhmn",
+    "labels": [
+      "25 Yotas"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-blog/issues/33",
+    "title": "Implement a link validation github action for blog posts",
+    "author": "elhmn",
+    "labels": [
+      "25 Yotas"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-blog/issues/22",
+    "title": "Write a blog article and share it with the community",
+    "author": "elhmn",
+    "labels": [
+      "good first issue",
+      "15 Yotas"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/osscameroon-blog/issues/16",
+    "title": "Say Hi to the osscameroon community",
+    "author": "elhmn",
+    "labels": [
+      "good first issue",
+      "5 Yotas"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/hawaBot/issues/5",
+    "title": "Use json or Js object instead of the DB",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/hawaBot/issues/1",
+    "title": "Development",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/42",
+    "title": "Is there a ROADMAP",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/41",
+    "title": "Some screenshots",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/38",
+    "title": "The map should not move when we close the popup",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/37",
+    "title": "The alert creation button is hiding the list of locations when the popup is opened",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/30",
+    "title": "Setup automatic stage deployment on merge to master for the experimental server",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/29",
+    "title": "Deploy application frontend in osscameroon experimental droplet",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/21",
+    "title": "Addition of the coordinates of the various cities of Cameroon",
+    "author": "Asam237",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/17",
+    "title": "Add a return button that allows to move from the alert page to the list page",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/8",
+    "title": "Add a map showing location of outages in cameroon",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/miniyotas/issues/15",
+    "title": "Add a tab that will list every issues that on the osscameroon github organisation",
+    "author": "elhmn",
+    "labels": [
+      "40 Yotas"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/miniyotas/issues/7",
+    "title": "Add sort by select button",
+    "author": "elhmn",
+    "labels": [
+      "good first issue",
+      "15 Yotas"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerapps.com/issues/29",
+    "title": "deploy action not execute the latest changes of the script",
+    "author": "DipandaAser",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerapps.com/issues/5",
+    "title": "add few  apps suggested by the osscameroon community",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerapps.com/issues/1",
+    "title": "Add new cameroonian applications, telegram, facebook groups ",
+    "author": "elhmn",
+    "labels": [
+      "good first issue",
+      "5 Yotas"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/hackaton-octobre-2021/issues/1",
+    "title": "On site hackaton Idea",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/Branding/issues/1",
+    "title": "Add the osscameroon branding `pdf` and `logos`",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/19",
+    "title": "Implement POST requests for the existing endpoints",
+    "author": "elhmn",
+    "labels": []
+  }
+]
