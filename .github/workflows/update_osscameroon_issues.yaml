@@ -1,7 +1,7 @@
-name: update osscameroon issues 
+name: update osscameroon issues
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 */20 * * *"
 
 jobs:
   update-osscameroon-issues:
