@@ -8,11 +8,9 @@ export interface Repo {
 }
 
 const formatRepos = (items: Repo[]): Repo[] => {
-    items?.sort((a, b) => {
+    return items?.sort((a, b) => {
         return Number(b?.issues) - Number(a?.issues);
-    });
-
-    return items;
+    }).filter((a) => Number(a?.issues) > 0);
 }
 
 export const getProjects = async (): Promise<Repo[]> => {
