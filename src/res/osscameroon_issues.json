@@ -460,18 +460,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/onacut/issues/38",
-    "title": "The map should not move when we close the popup",
-    "author": "elhmn",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/onacut/issues/37",
-    "title": "The alert creation button is hiding the list of locations when the popup is opened",
-    "author": "elhmn",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/onacut/issues/30",
     "title": "Setup automatic stage deployment on merge to master for the experimental server",
     "author": "elhmn",
@@ -506,7 +494,7 @@
     "title": "Add a tab that will list every issues that on the osscameroon github organisation",
     "author": "elhmn",
     "labels": [
-      "40 Yotas"
+      "25 Yotas"
     ]
   },
   {
