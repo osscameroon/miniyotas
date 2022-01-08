@@ -1,4 +1,4 @@
-name: telegram recommend yotas issues
+name: update osscameroon issues 
 on:
   schedule:
     - cron: "*/5 * * * *"
