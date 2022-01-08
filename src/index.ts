@@ -4,6 +4,7 @@ import * as helpers from "./helpers/handlebars";
 import { getValues, Record } from "./googlesheet";
 import {getShop, Item, Shop} from "./shop";
 import Fuse from "fuse.js";
+import {getProjects, Repo} from "./issues";
 
 const port: number = 3000;
 const limit: number  = 12;
@@ -102,6 +103,19 @@ app.get("/shop", async (req: any, res: any) => {
     pages: Math.ceil(count/limit),
   });
 });
+
+app.get("/issues", async (req: any, res: any) => {
+  const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+  const rep: Repo[] = await getProjects();
+  res.render("index", {
+    fullUrl,
+    items: rep,
+    link: "issues",
+    currentYear: getCurrentYear(),
+  });
+});
+
+
 app.use('/views', express.static(__dirname + "/views"))
 app.use('/res', express.static(__dirname + "/res"))
 
