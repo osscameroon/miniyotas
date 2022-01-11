@@ -128,13 +128,22 @@ app.get("/issues", async (req: any, res: any) => {
 app.get("/issues/:repo", async (req: any, res: any) => {
   const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
   const repo: string = req.params.repo;
-  const rep: Issue[] = await getIssues(repo);
+  const issues: Issue[] = await getIssues(repo);
+  const query = req.query.query || "";
+  const {count,items,interval} = paginate(issues,parseInt(req.query.page) || 1);
+
   res.render("index", {
     fullUrl,
-    items: rep,
+    query,
+    items,
     repo,
     link: "issues/repo",
     currentYear: getCurrentYear(),
+    count,
+    interval,
+    hasParams: fullUrl.includes('?'),
+    current: parseInt(req.query.page) || 1,
+    pages: Math.ceil(count/limit),
   });
 });
 
