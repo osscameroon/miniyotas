@@ -1,10 +1,17 @@
-import {getRepos} from "./helpers/github";
+import {get} from "./helpers/github";
 
 export interface Repo {
     title?: string,
     description?: string,
     language?: string,
     issues?: number
+}
+
+export interface Issue {
+    title?: string,
+    labels?: Array<String>,
+    description?: string,
+    link?: string
 }
 
 const formatRepos = (items: Repo[]): Repo[] => {
@@ -15,7 +22,7 @@ const formatRepos = (items: Repo[]): Repo[] => {
 
 export const getProjects = async (): Promise<Repo[]> => {
     try {
-        const response = await getRepos("https://api.github.com/orgs/osscameroon/repos");
+        const response = await get("https://api.github.com/orgs/osscameroon/repos");
         const repos: Repo[] = response.data.map((repository: { name: string; description: string; language: string; open_issues: string }) => {
             return {
                 title: repository.name,
@@ -28,6 +35,26 @@ export const getProjects = async (): Promise<Repo[]> => {
         return formatRepos(repos);
     } catch (error) {
         console.error("Failed to get project", error)
+    }
+
+    return [];
+}
+
+export const getIssues = async (repo: String): Promise<Issue[]> => {
+    try {
+        const response = await get(`https://api.github.com/repos/osscameroon/${repo}/issues`);
+        const issues: Issue[] = response.data.map((issue: { title: string; body: string; labels: Array<any>; html_url: string }) => {
+            return {
+                title: issue.title,
+                description: issue.body,
+                labels: issue.labels.map((label) => label.name),
+                link: issue.html_url
+            };
+        })
+
+        return issues;
+    } catch (error) {
+        console.error("Failed to get issues", error)
     }
 
     return [];

@@ -5,6 +5,6 @@ export const extractHandleFromGitHubUrl = (url: string): string => {
   return urlArray[urlArray.length - 1];
 };
 
-export const getRepos = async (url: string): Promise<any> => {
+export const get = async (url: string): Promise<any> => {
   return await axios.get(url);
 }
