@@ -35,3 +35,7 @@ export const constructUrl = (url: string, param: string): string => {
 export const contains = (a: string, b:string): boolean => {
   return a.includes(b);
 }
+
+export const or = (v1: boolean, v2: boolean): boolean => {
+  return v1 || v2;
+}
