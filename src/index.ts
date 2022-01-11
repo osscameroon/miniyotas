@@ -123,13 +123,11 @@ app.get("/issues/:repo", async (req: any, res: any) => {
   res.render("index", {
     fullUrl,
     items: rep,
+    repo,
     link: "issues/repo",
     currentYear: getCurrentYear(),
   });
 });
-
-
-
 
 app.use('/views', express.static(__dirname + "/views"))
 app.use('/res', express.static(__dirname + "/res"))
