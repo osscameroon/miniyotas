@@ -20,6 +20,18 @@ const formatRepos = (items: Repo[]): Repo[] => {
     }).filter((a) => Number(a?.issues) > 0);
 }
 
+const filterIssues = (items: Issue[]): Issue[] => {
+    items?.sort((a, b) => {
+        let y1 = a.labels?.filter((label) => label.toLowerCase().includes("yotas"))[0]?.split(" ")[0]
+        let y2 = b.labels?.filter((label) => label.toLowerCase().includes("yotas"))[0]?.split(" ")[0]
+
+        // if y1 or y2 is undefined or null give it a big number to put him in last
+        return Number(y1 ? y1 : '2000') - Number(y2 ? y2 : '2000');
+    })
+
+    return items;
+}
+
 export const getProjects = async (): Promise<Repo[]> => {
     try {
         const response = await get("https://api.github.com/orgs/osscameroon/repos");
@@ -52,7 +64,7 @@ export const getIssues = async (repo: String): Promise<Issue[]> => {
             };
         })
 
-        return issues;
+        return filterIssues(issues);
     } catch (error) {
         console.error("Failed to get issues", error)
     }

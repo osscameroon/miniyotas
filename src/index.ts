@@ -119,7 +119,6 @@ app.get("/issues/:repo", async (req: any, res: any) => {
   const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
   const repo: string = req.params.repo;
   const rep: Issue[] = await getIssues(repo);
-  console.log(rep);
   res.render("index", {
     fullUrl,
     items: rep,
