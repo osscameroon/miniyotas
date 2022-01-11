@@ -1,8 +1,4 @@
 <div class="container mt-5" style="margin-bottom: 25px">
-    <div class="d-flex align-items-center justify-content-center">
-        <a href="https://github.com/osscameroon/{{repo}}" target="_blank"
-           class="text-decoration-none fs-5 fw-bold">See {{repo}} on github</a>
-    </div>
     <div class="d-flex justify-content-center mt-5 mb-5">
         <div class="container">
             <div class="row g-3">
@@ -10,7 +6,7 @@
                     <div class="col-md-6 mb-3">
                         <div class="card shadow-sm h-100">
                             <div class="card-body">
-                                <h5 class="card-title"><a href="{{this.link}}" target="_blank"
+                                <h5 class="card-title"><a href="{{this.issues}}" target="_blank"
                                                           class="text-decoration-none">
                                     {{this.title}}
                                 </a></h5>
@@ -18,6 +14,9 @@
                                     {{#each this.labels}}
                                         <span class="badge bg-dark">{{this}}</span>
                                     {{/each}}
+                                </p>
+                                <p class="d-flex justify-content-end">
+                                    <a href="https://github.com/{{this.author}}" class="text-decoration-none" target="_blank">By {{this.author}}</a>
                                 </p>
                             </div>
                         </div>

@@ -1,23 +1,12 @@
-import {get} from "./helpers/github";
+import * as fs from "fs";
 
-export interface Repo {
-    title?: string,
-    description?: string,
-    language?: string,
-    issues?: number
-}
+const issuesFilePath = __dirname + "/res/osscameroon_issues.json";
 
 export interface Issue {
     title?: string,
     labels?: Array<String>,
-    description?: string,
-    link?: string
-}
-
-const formatRepos = (items: Repo[]): Repo[] => {
-    return items?.sort((a, b) => {
-        return Number(b?.issues) - Number(a?.issues);
-    }).filter((a) => Number(a?.issues) > 0);
+    author?: string,
+    issue?: string
 }
 
 const filterIssues = (items: Issue[]): Issue[] => {
@@ -32,37 +21,10 @@ const filterIssues = (items: Issue[]): Issue[] => {
     return items;
 }
 
-export const getProjects = async (): Promise<Repo[]> => {
+export const getIssues = async (): Promise<Issue[]> => {
     try {
-        const response = await get("https://api.github.com/orgs/osscameroon/repos");
-        const repos: Repo[] = response.data.map((repository: { name: string; description: string; language: string; open_issues: string }) => {
-            return {
-                title: repository.name,
-                description: repository.description,
-                language: repository.language,
-                issues: repository.open_issues
-            };
-        })
-
-        return formatRepos(repos);
-    } catch (error) {
-        console.error("Failed to get project", error)
-    }
-
-    return [];
-}
-
-export const getIssues = async (repo: String): Promise<Issue[]> => {
-    try {
-        const response = await get(`https://api.github.com/repos/osscameroon/${repo}/issues`);
-        const issues: Issue[] = response.data.map((issue: { title: string; body: string; labels: Array<any>; html_url: string }) => {
-            return {
-                title: issue.title,
-                description: issue.body,
-                labels: issue.labels.map((label) => label.name),
-                link: issue.html_url
-            };
-        })
+        const file = fs.readFileSync(issuesFilePath, "utf8");
+        const issues: Issue[] = JSON.parse(file);
 
         return filterIssues(issues);
     } catch (error) {

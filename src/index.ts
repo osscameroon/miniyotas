@@ -4,7 +4,7 @@ import * as helpers from "./helpers/handlebars";
 import { getValues, Record } from "./googlesheet";
 import {getShop, Item, Shop} from "./shop";
 import Fuse from "fuse.js";
-import {getIssues, getProjects, Issue, Repo} from "./issues";
+import {getIssues, Issue} from "./issues";
 
 const port: number = 3000;
 const limit: number  = 12;
@@ -106,29 +106,7 @@ app.get("/shop", async (req: any, res: any) => {
 
 app.get("/issues", async (req: any, res: any) => {
   const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
-  const repos: Repo[] = await getProjects();
-  const query = req.query.query || "";
-  const {count,items,interval} = paginate(repos,parseInt(req.query.page) || 1);
-
-
-  res.render("index", {
-    fullUrl,
-    query,
-    items,
-    link: "issues",
-    currentYear: getCurrentYear(),
-    count,
-    interval,
-    hasParams: fullUrl.includes('?'),
-    current: parseInt(req.query.page) || 1,
-    pages: Math.ceil(count/limit),
-  });
-});
-
-app.get("/issues/:repo", async (req: any, res: any) => {
-  const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
-  const repo: string = req.params.repo;
-  const issues: Issue[] = await getIssues(repo);
+  const issues: Issue[] = await getIssues();
   const query = req.query.query || "";
   const {count,items,interval} = paginate(issues,parseInt(req.query.page) || 1);
 
@@ -136,8 +114,7 @@ app.get("/issues/:repo", async (req: any, res: any) => {
     fullUrl,
     query,
     items,
-    repo,
-    link: "issues/repo",
+    link: "issues",
     currentYear: getCurrentYear(),
     count,
     interval,
