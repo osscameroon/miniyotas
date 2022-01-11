@@ -4,7 +4,7 @@ import * as helpers from "./helpers/handlebars";
 import { getValues, Record } from "./googlesheet";
 import {getShop, Item, Shop} from "./shop";
 import Fuse from "fuse.js";
-import {getProjects, Repo} from "./issues";
+import {getIssues, getProjects, Issue, Repo} from "./issues";
 
 const port: number = 3000;
 const limit: number  = 12;
@@ -114,6 +114,21 @@ app.get("/issues", async (req: any, res: any) => {
     currentYear: getCurrentYear(),
   });
 });
+
+app.get("/issues/:repo", async (req: any, res: any) => {
+  const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+  const repo: string = req.params.repo;
+  const rep: Issue[] = await getIssues(repo);
+  console.log(rep);
+  res.render("index", {
+    fullUrl,
+    items: rep,
+    link: "issues/repo",
+    currentYear: getCurrentYear(),
+  });
+});
+
+
 
 
 app.use('/views', express.static(__dirname + "/views"))
