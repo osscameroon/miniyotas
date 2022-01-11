@@ -9,28 +9,35 @@
         </div>
     </div>
     <div class="d-flex justify-content-center mt-5 mb-5">
-        <div class="row g-3">
-            {{#each items}}
-                <div class="col-md-4 mb-3">
-                    <div class="card shadow-sm h-100">
-                        <div class="card-body">
-                            <h5 class="card-title"><a  href="{{@root.fullUrl}}/{{this.title}}" class="text-decoration-none">
-                                {{this.title}}{{fullUrl}}
-                            </a></h5>
-                            <p class="card-text fw-light" style="font-size: 0.9em !important;">
-                                {{this.description}}
-                            </p>
-                            <p class="mt-4">
-                                <a href="" class="btn btn-outline-primary rounded-pill">
-                                    Issues <span class="badge bg-primary">{{this.issues}}</span>
-                                </a>
-                                <span class="badge bg-light text-dark rounded-pill"
-                                      style="padding: 14px">{{this.language}}</span>
-                            </p>
+        <div class="container">
+            <div class="row g-3">
+                {{#each items}}
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="{{@root.fullUrl}}/{{this.title}}"
+                                                          class="text-decoration-none">
+                                    {{this.title}}{{fullUrl}}
+                                </a></h5>
+                                <p class="card-text fw-light" style="font-size: 0.9em !important;">
+                                    {{this.description}}
+                                </p>
+                                <p class="mt-4">
+                                    <a href="" class="btn btn-outline-primary rounded-pill">
+                                        Issues <span class="badge bg-primary">{{this.issues}}</span>
+                                    </a>
+                                    <span class="badge bg-light text-dark rounded-pill"
+                                          style="padding: 14px">{{this.language}}</span>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            {{/each}}
+                {{/each}}
+            </div>
         </div>
     </div>
 </div>
+
+{{#if  (isLower 0 pages)}}
+    {{>pagination}}
+{{/if}}
