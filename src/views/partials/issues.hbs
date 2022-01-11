@@ -6,18 +6,27 @@
                     <div class="col-md-6 mb-3">
                         <div class="card shadow-sm h-100">
                             <div class="card-body">
-                                <h5 class="card-title"><a href="{{this.issues}}" target="_blank"
+                                <a href="https://github.com/{{repoName this.issue}}" target="_blank"
+                                   class="text-decoration-none mb-4" style="font-size: 0.9em !important;">
+                                    {{repoName this.issue}}
+                                </a> <br>
+                                <h5 class="card-title"><a href="{{this.issue}}" target="_blank"
                                                           class="text-decoration-none">
                                     {{this.title}}
                                 </a></h5>
-                                <p class="card-text fw-light" style="font-size: 0.9em !important;">
-                                    {{#each this.labels}}
-                                        <span class="badge bg-dark">{{this}}</span>
-                                    {{/each}}
-                                </p>
-                                <p class="d-flex justify-content-end">
-                                    <a href="https://github.com/{{this.author}}" class="text-decoration-none" target="_blank">By {{this.author}}</a>
-                                </p>
+                                <div class="d-flex justify-content-between mt-4" style="font-size: 0.9em !important;">
+                                    <p class="justify-content-start" style="font-size: 0.5em !important;">
+                                        {{#each this.labels}}
+                                            <span class="btn btn-outline-primary rounded-pill" style="font-size: 2em !important;">
+                                            {{this}}
+                                        </span>
+                                        {{/each}}
+                                    </p>
+                                    <p class="justify-content-end">
+                                        <a href="https://github.com/{{this.author}}" class="text-decoration-none"
+                                           target="_blank">By {{this.author}}</a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
