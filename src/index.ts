@@ -1,4 +1,4 @@
-import express from "express";
+import express, {Request, Response} from "express";
 import exphbs from "express-handlebars";
 import * as helpers from "./helpers/handlebars";
 import { getValues, Record } from "./googlesheet";
@@ -104,11 +104,11 @@ app.get("/shop", async (req: any, res: any) => {
   });
 });
 
-app.get("/issues", async (req: any, res: any) => {
+app.get("/issues", async (req: Request, res: Response) => {
   const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
   const issues: Issue[] = await getIssues();
   const query = req.query.query || "";
-  const {count,items,interval} = paginate(issues,parseInt(req.query.page) || 1);
+  const {count,items,interval} = paginate(issues,parseInt(<string>req.query.page) || 1);
 
   res.render("index", {
     fullUrl,
@@ -119,7 +119,7 @@ app.get("/issues", async (req: any, res: any) => {
     count,
     interval,
     hasParams: fullUrl.includes('?'),
-    current: parseInt(req.query.page) || 1,
+    current: parseInt(<string>req.query.page) || 1,
     pages: Math.ceil(count/limit),
   });
 });

@@ -10,12 +10,12 @@ export interface Issue {
 }
 
 const filterIssues = (items: Issue[]): Issue[] => {
-    items?.sort((a, b) => {
+    items.sort((a, b) => {
         let y1 = a.labels?.filter((label) => label.toLowerCase().includes("yotas"))[0]?.split(" ")[0]
         let y2 = b.labels?.filter((label) => label.toLowerCase().includes("yotas"))[0]?.split(" ")[0]
 
         // if y1 or y2 is undefined or null give it a big number to put him in last
-        return Number(y1 ? y1 : '2000') - Number(y2 ? y2 : '2000');
+        return Number(y1 ?? '2000') - Number(y2 ?? '2000');
     })
 
     return items;
