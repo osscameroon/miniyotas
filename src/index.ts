@@ -28,7 +28,14 @@ app.engine(
 );
 app.set("view engine", ".hbs");
 
-const getRecordsMatchingQuery = (query: string, records: Record[]): Record[] => {
+
+const getRecordsMatchingQuery = (query: string, records: Record[], sortValue: string): Record[] => {
+  if (sortValue == 'asc') {
+    records.sort((a, b) => a.yotas - b.yotas);
+  } else if (sortValue == 'desc') {
+    records.sort((a, b) => b.yotas - a.yotas);
+  }
+
   if (query === "") {
     return records;
   }
@@ -54,9 +61,10 @@ const paginate = (items: Item[],page: number) => {
 
 const handleContributors = async (req: any, res: any) => {
   const query = req.query.query || "";
+  const sortValue = req.query.sortValue;
   let records: Record[] = await getValues();
 
-  records = getRecordsMatchingQuery(query, records);
+  records = getRecordsMatchingQuery(query, records, sortValue);
   const {count,items,interval} = paginate(records,parseInt(req.query.page) || 1);
   const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
 
