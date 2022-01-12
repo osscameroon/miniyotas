@@ -1,9 +1,10 @@
-import express from "express";
+import express, {Request, Response} from "express";
 import exphbs from "express-handlebars";
 import * as helpers from "./helpers/handlebars";
 import { getValues, Record } from "./googlesheet";
 import {getShop, Item, Shop} from "./shop";
 import Fuse from "fuse.js";
+import {getIssues, Issue} from "./issues";
 
 const port: number = 3000;
 const limit: number  = 12;
@@ -102,6 +103,27 @@ app.get("/shop", async (req: any, res: any) => {
     pages: Math.ceil(count/limit),
   });
 });
+
+app.get("/issues", async (req: Request, res: Response) => {
+  const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+  const issues: Issue[] = await getIssues();
+  const query = req.query.query || "";
+  const {count,items,interval} = paginate(issues,parseInt(<string>req.query.page) || 1);
+
+  res.render("index", {
+    fullUrl,
+    query,
+    items,
+    link: "issues",
+    currentYear: getCurrentYear(),
+    count,
+    interval,
+    hasParams: fullUrl.includes('?'),
+    current: parseInt(<string>req.query.page) || 1,
+    pages: Math.ceil(count/limit),
+  });
+});
+
 app.use('/views', express.static(__dirname + "/views"))
 app.use('/res', express.static(__dirname + "/res"))
 

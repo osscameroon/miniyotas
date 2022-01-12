@@ -13,4 +13,11 @@
       <a class="nav-link" href="/shop">Shop</a>
 	{{/if}}
   </li>
+  <li class="nav-item">
+    {{#if (isLink link "issues")}}
+      <a class="nav-link active" href="/issues">Issues</a>
+    {{else}}
+      <a class="nav-link" href="/issues">Issues</a>
+    {{/if}}
+  </li>
 </ul>

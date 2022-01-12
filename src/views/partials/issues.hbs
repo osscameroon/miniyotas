@@ -1,0 +1,38 @@
+<div class="container mt-5" style="margin-bottom: 25px">
+    <div class="d-flex justify-content-center mt-5 mb-5">
+        <div class="container">
+            <div class="row g-3">
+                {{#each items}}
+                    <div class="col-md-6 mb-3">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <span class="text-decoration-none mb-4" style="font-size: 0.9em !important;">
+                                    {{repoName this.issue}}
+                                </span> <br>
+                                <h5 class="card-title mt-2"><a href="{{this.issue}}" target="_blank"
+                                                          class="text-decoration-none">
+                                    {{this.title}}
+                                </a></h5>
+                                <div class="d-flex justify-content-between mt-4" style="font-size: 0.9em !important;">
+                                    <p class="justify-content-start">
+                                        {{#each this.labels}}
+                                            <span class="badge" style="background-color:#47B1EA;">{{this}}</span>
+                                        {{/each}}
+                                    </p>
+                                    <p class="justify-content-end">
+                                        <a href="https://github.com/{{this.author}}" class="text-decoration-none"
+                                           target="_blank">By {{this.author}}</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{#if  (isLower 0 pages)}}
+    {{>pagination}}
+{{/if}}
