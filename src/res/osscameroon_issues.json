@@ -490,14 +490,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/miniyotas/issues/15",
-    "title": "Add a tab that will list every issues that on the osscameroon github organisation",
-    "author": "elhmn",
-    "labels": [
-      "25 Yotas"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/miniyotas/issues/7",
     "title": "Add sort by select button",
     "author": "elhmn",
