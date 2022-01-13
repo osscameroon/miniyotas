@@ -532,6 +532,24 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/26",
+    "title": "Add to the home page the list of salaries tab",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/25",
+    "title": "Build home page with the list of companies",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/24",
+    "title": "Add instructions in the README.md on how to start the frontend ",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/19",
     "title": "Implement POST requests for the existing endpoints",
     "author": "elhmn",
