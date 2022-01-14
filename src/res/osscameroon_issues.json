@@ -539,7 +539,7 @@
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/25",
-    "title": "Build home page with the list of companies",
+    "title": "Build home page that only display data",
     "author": "elhmn",
     "labels": []
   },
