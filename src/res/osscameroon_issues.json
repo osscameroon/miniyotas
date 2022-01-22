@@ -532,8 +532,32 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/26",
-    "title": "Add to the home page the list of salaries tab",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/37",
+    "title": "Implement pagination for the `GET` ratings endpoint",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/36",
+    "title": "Implement the `GET` `/jobtitles` endpoint",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/35",
+    "title": "Sort list of companies",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/34",
+    "title": "Add rating detail",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/33",
+    "title": "Add the bar with average salary",
     "author": "elhmn",
     "labels": []
   },
