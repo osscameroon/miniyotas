@@ -532,6 +532,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/39",
+    "title": "add an Endpoint to the backend for the average salary.",
+    "author": "Zaker237",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/37",
     "title": "Implement pagination for the `GET` ratings endpoint",
     "author": "elhmn",
