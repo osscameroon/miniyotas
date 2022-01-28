@@ -402,6 +402,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/osscameroon-blog/issues/61",
+    "title": "Improvement in some files",
+    "author": "yokwejuste",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/osscameroon-blog/issues/50",
     "title": "We should post a message when a new article is added to the blog",
     "author": "elhmn",
