@@ -544,56 +544,8 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/42",
-    "title": "add a date field at the backend level  for the ratings endpoint",
-    "author": "Asam237",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/39",
-    "title": "add an Endpoint to the backend for the average salary.",
-    "author": "Zaker237",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/37",
     "title": "Implement pagination for the `GET` ratings endpoint",
-    "author": "elhmn",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/36",
-    "title": "Implement the `GET` `/jobtitles` endpoint",
-    "author": "elhmn",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/35",
-    "title": "Sort list of companies",
-    "author": "elhmn",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/34",
-    "title": "Add rating detail",
-    "author": "elhmn",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/33",
-    "title": "Add the bar with average salary",
-    "author": "elhmn",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/25",
-    "title": "Build home page that only display data",
-    "author": "elhmn",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/24",
-    "title": "Add instructions in the README.md on how to start the frontend ",
     "author": "elhmn",
     "labels": []
   },
