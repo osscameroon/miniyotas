@@ -545,7 +545,7 @@
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/42",
-    "title": "add a date field at the backend level ",
+    "title": "add a date field at the backend level  for the ratings endpoint",
     "author": "Asam237",
     "labels": []
   },
