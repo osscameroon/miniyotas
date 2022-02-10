@@ -544,15 +544,123 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/37",
-    "title": "Implement pagination for the `GET` ratings endpoint",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/68",
+    "title": "Implement filters on the list of ratings",
     "author": "elhmn",
-    "labels": []
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/67",
+    "title": "Implement the `GET` `cities` endpoint",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/66",
+    "title": "Add the `City` field in the formular to add a new salary",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/65",
+    "title": "Add the `Seniority` field in the formular to add a new salary",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/64",
+    "title": "Implement auto-completion for the`company_name` field in the formular",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/63",
+    "title": "Implement auto-completion for the jobtitle field in the formular",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/62",
+    "title": "Add a `City` field to the formular to add a salary in the frontend `add_salary` page",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/61",
+    "title": "Use the actual date field returned by the `GET` `ratings` endpoint to in the salary comment detail",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/60",
+    "title": "Add the City column to the list of ratings",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/59",
+    "title": "Add the Seniority column to the rating list",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/58",
+    "title": "Remove the Position column from the rating list",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/57",
+    "title": "Remove the Search bar at the top of each pages",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/56",
+    "title": "Integrate the pagination using the `GET` `/ratings?page=10&limit=20`",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/55",
+    "title": "Implement filters for the GET `/ratings` endpoint",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/19",
     "title": "Implement POST requests for the existing endpoints",
     "author": "elhmn",
-    "labels": []
+    "labels": [
+      "backend"
+    ]
   }
 ]
