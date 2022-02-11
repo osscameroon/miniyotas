@@ -116,6 +116,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/Open-Projects/issues/25",
+    "title": "Online regulatory website for cameroonian startups",
+    "author": "3logy",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/23",
     "title": "Quizo",
     "author": "Sanix-Darker",
@@ -602,38 +608,6 @@
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/61",
     "title": "Use the actual date field returned by the `GET` `ratings` endpoint to in the salary comment detail",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/60",
-    "title": "Add the City column to the list of ratings",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/59",
-    "title": "Add the Seniority column to the rating list",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/58",
-    "title": "Remove the Position column from the rating list",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/57",
-    "title": "Remove the Search bar at the top of each pages",
     "author": "elhmn",
     "labels": [
       "frontend"
