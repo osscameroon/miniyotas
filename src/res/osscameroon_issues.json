@@ -550,64 +550,24 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/81",
+    "title": "Integrate computation of the average rating using filters",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/79",
+    "title": "The cancel button on the formular should redirect to the list page",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/68",
     "title": "Implement filters on the list of ratings",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/67",
-    "title": "Implement the `GET` `cities` endpoint",
-    "author": "elhmn",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/66",
-    "title": "Add the `City` field in the formular to add a new salary",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/65",
-    "title": "Add the `Seniority` field in the formular to add a new salary",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/64",
-    "title": "Implement auto-completion for the`company_name` field in the formular",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/63",
-    "title": "Implement auto-completion for the jobtitle field in the formular",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/62",
-    "title": "Add a `City` field to the formular to add a salary in the frontend `add_salary` page",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/61",
-    "title": "Use the actual date field returned by the `GET` `ratings` endpoint to in the salary comment detail",
     "author": "elhmn",
     "labels": [
       "frontend"
@@ -619,14 +579,6 @@
     "author": "elhmn",
     "labels": [
       "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/55",
-    "title": "Implement filters for the GET `/ratings` endpoint",
-    "author": "elhmn",
-    "labels": [
-      "backend"
     ]
   },
   {
