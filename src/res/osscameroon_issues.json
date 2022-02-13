@@ -550,6 +550,14 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/85",
+    "title": "implement the page logique on the frontend",
+    "author": "Zaker237",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/81",
     "title": "Integrate computation of the average rating using filters",
     "author": "elhmn",
