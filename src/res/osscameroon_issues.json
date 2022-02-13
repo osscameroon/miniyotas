@@ -550,6 +550,22 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/88",
+    "title": "The backend should reformat `companies` and `jobtitles` sent by the users",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/87",
+    "title": "Add default values to the GET `companies` and `jobtitles` endpoint",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/85",
     "title": "implement the page logique on the frontend",
     "author": "Zaker237",
@@ -560,14 +576,6 @@
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/81",
     "title": "Integrate computation of the average rating using filters",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/79",
-    "title": "The cancel button on the formular should redirect to the list page",
     "author": "elhmn",
     "labels": [
       "frontend"
@@ -587,14 +595,6 @@
     "author": "elhmn",
     "labels": [
       "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/19",
-    "title": "Implement POST requests for the existing endpoints",
-    "author": "elhmn",
-    "labels": [
-      "backend"
     ]
   }
 ]
