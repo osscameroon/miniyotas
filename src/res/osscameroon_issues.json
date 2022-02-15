@@ -550,6 +550,30 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/93",
+    "title": "add bouton tu jump to the first and to the last page",
+    "author": "Zaker237",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/92",
+    "title": "show the current page to user",
+    "author": "Zaker237",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/91",
+    "title": "show the current page and the total number of page and mobiles devices??",
+    "author": "Zaker237",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/88",
     "title": "The backend should reformat `companies` and `jobtitles` sent by the users",
     "author": "elhmn",
