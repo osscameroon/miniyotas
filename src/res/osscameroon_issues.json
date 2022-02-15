@@ -472,12 +472,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/onacut/issues/41",
-    "title": "Some screenshots",
-    "author": "Sanix-Darker",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/onacut/issues/30",
     "title": "Setup automatic stage deployment on merge to master for the experimental server",
     "author": "elhmn",
@@ -548,22 +542,6 @@
     "title": "Add the osscameroon branding `pdf` and `logos`",
     "author": "elhmn",
     "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/93",
-    "title": "add bouton tu jump to the first and to the last page",
-    "author": "Zaker237",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/92",
-    "title": "show the current page to user",
-    "author": "Zaker237",
-    "labels": [
-      "frontend"
-    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/91",
