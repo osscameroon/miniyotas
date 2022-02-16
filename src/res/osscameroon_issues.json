@@ -538,6 +538,15 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/global-github-actions/issues/55",
+    "title": "fix: we don't want to post a quiz if poll's options are too long (>99 characters)",
+    "author": "Sanix-Darker",
+    "labels": [
+      "10 Yotas",
+      "bug"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/Branding/issues/1",
     "title": "Add the osscameroon branding `pdf` and `logos`",
     "author": "elhmn",
