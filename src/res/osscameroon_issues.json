@@ -544,6 +544,14 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/global-github-actions/issues/58",
+    "title": "fix: Problem to escape quote",
+    "author": "pythonbrad",
+    "labels": [
+      "bug"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/55",
     "title": "fix: we don't want to post a quiz if poll's options are too long (>99 characters)",
     "author": "Sanix-Darker",
@@ -588,14 +596,6 @@
     "author": "elhmn",
     "labels": [
       "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/85",
-    "title": "implement the page logique on the frontend",
-    "author": "Zaker237",
-    "labels": [
-      "frontend"
     ]
   },
   {
