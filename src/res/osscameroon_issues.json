@@ -538,6 +538,18 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/global-github-actions/issues/61",
+    "title": "fix: telegram quote fail",
+    "author": "pythonbrad",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/global-github-actions/issues/60",
+    "title": "fix: telegram job report fail",
+    "author": "pythonbrad",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/55",
     "title": "fix: we don't want to post a quiz if poll's options are too long (>99 characters)",
     "author": "Sanix-Darker",
@@ -551,14 +563,6 @@
     "title": "Add the osscameroon branding `pdf` and `logos`",
     "author": "elhmn",
     "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/97",
-    "title": "Implement ratings post ",
-    "author": "Asam237",
-    "labels": [
-      "frontend"
-    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/91",
