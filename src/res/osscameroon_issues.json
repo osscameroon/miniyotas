@@ -565,6 +565,24 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/104",
+    "title": "Add the Fcfa currency in front of the salary field on the formular",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/103",
+    "title": "The autocomplete is very slow and a little buggy",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/102",
+    "title": "We can't post the rating yet, it does not work",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/91",
     "title": "show the current page and the total number of page and mobiles devices??",
     "author": "Zaker237",
