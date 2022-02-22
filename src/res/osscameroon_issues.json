@@ -408,12 +408,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/osscameroon-blog/issues/65",
-    "title": "Docker image don't content ssh, nanor/vim, and scp for push to server",
-    "author": "ryankarl65",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/osscameroon-blog/issues/61",
     "title": "Improvement in some files",
     "author": "yokwejuste",
