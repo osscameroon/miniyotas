@@ -559,6 +559,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/107",
+    "title": "Include a \"thousand separator\" in the salary field.",
+    "author": "Theryx",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/104",
     "title": "Add the Fcfa currency in front of the salary field on the formular",
     "author": "elhmn",
