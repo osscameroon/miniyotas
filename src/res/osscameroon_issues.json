@@ -110,12 +110,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/Open-Projects/issues/25",
-    "title": "Online regulatory website for cameroonian startups",
-    "author": "3logy",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/23",
     "title": "Quizo",
     "author": "Sanix-Darker",
@@ -565,20 +559,8 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/104",
-    "title": "Add the Fcfa currency in front of the salary field on the formular",
-    "author": "elhmn",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/103",
     "title": "The autocomplete is very slow and a little buggy",
-    "author": "elhmn",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/102",
-    "title": "We can't post the rating yet, it does not work",
     "author": "elhmn",
     "labels": []
   },
@@ -604,14 +586,6 @@
     "author": "elhmn",
     "labels": [
       "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/81",
-    "title": "Integrate computation of the average rating using filters",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
     ]
   },
   {
