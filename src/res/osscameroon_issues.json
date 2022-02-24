@@ -553,6 +553,18 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/110",
+    "title": "Fix pagination bug with filter ",
+    "author": "Asam237",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/109",
+    "title": "Addition of the monthly salary ticket ",
+    "author": "Asam237",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/107",
     "title": "Include a \"thousand separator\" in the salary field.",
     "author": "Theryx",
@@ -586,14 +598,6 @@
     "author": "elhmn",
     "labels": [
       "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/68",
-    "title": "Implement filters on the list of ratings",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
     ]
   }
 ]
