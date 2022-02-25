@@ -200,6 +200,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/6",
+    "title": "Create a web app translating from Html to Js",
+    "author": "elroykanye",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/yotas/issues/85",
     "title": "Design the organization creation page",
     "author": "gtindo",
