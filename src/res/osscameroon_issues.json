@@ -532,26 +532,38 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/global-github-actions/issues/67",
+    "title": "fix(report quiz): the quiz skipped is not really replaced",
+    "author": "pythonbrad",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/global-github-actions/issues/66",
+    "title": "feat(report quiz): multiple choice",
+    "author": "pythonbrad",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/65",
-    "title": "feat: Add quiz context",
+    "title": "feat(report quiz): Add quiz context",
     "author": "pythonbrad",
     "labels": []
   },
   {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/63",
-    "title": "fix: all the quiz answers are not take in account",
+    "title": "fix(report quiz): all the quiz answers are not take in account",
     "author": "pythonbrad",
     "labels": []
   },
   {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/61",
-    "title": "fix: telegram quote fail",
+    "title": "fix(report quote): fail",
     "author": "pythonbrad",
     "labels": []
   },
   {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/60",
-    "title": "fix: telegram job report fail",
+    "title": "fix(report job): report fail",
     "author": "pythonbrad",
     "labels": []
   },
@@ -571,22 +583,56 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/109",
-    "title": "Addition of the monthly salary ticket ",
-    "author": "Asam237",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/122",
+    "title": "Put Pagination after the Average salary row",
+    "author": "Theryx",
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/107",
-    "title": "Include a \"thousand separator\" in the salary field.",
-    "author": "Theryx",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/121",
+    "title": "Change the ico of the app",
+    "author": "Zaker237",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/119",
+    "title": "Remove regular expresssion inside filter plugin for thousands separator",
+    "author": "GenjiruSUchiwa",
     "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/117",
+    "title": "Set website title to \"Jobsika\"",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/116",
+    "title": "Dockerise frontend and prepare for deployment",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/114",
+    "title": "Rating creation does not work very well with empty companies/jobtitles or cities",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/103",
     "title": "The autocomplete is very slow and a little buggy",
     "author": "elhmn",
-    "labels": []
+    "labels": [
+      "frontend"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/91",
