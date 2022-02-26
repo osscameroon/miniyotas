@@ -532,6 +532,18 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/global-github-actions/issues/65",
+    "title": "feat: Add quiz context",
+    "author": "pythonbrad",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/global-github-actions/issues/63",
+    "title": "fix: all the quiz answers are not take in account",
+    "author": "pythonbrad",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/61",
     "title": "fix: telegram quote fail",
     "author": "pythonbrad",
