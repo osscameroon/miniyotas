@@ -200,6 +200,18 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/12",
+    "title": "Steps for the Whole Project to follow",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/js-generator/issues/10",
+    "title": "Show this repo PR on Oss Channel in telegram",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/6",
     "title": "Create a web app translating from Html to Js",
     "author": "elroykanye",
@@ -408,12 +420,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/osscameroon-blog/issues/61",
-    "title": "Improvement in some files",
-    "author": "yokwejuste",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/osscameroon-blog/issues/50",
     "title": "We should post a message when a new article is added to the blog",
     "author": "elhmn",
@@ -583,10 +589,68 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/137",
+    "title": "Remove the incremental buttons in the salary imput fields",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/135",
+    "title": "Rename Preview word on the filters",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/133",
+    "title": "Typo on the subtittle",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/132",
+    "title": "Design for the pagination on mobile.",
+    "author": "Asam237",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/129",
+    "title": "Reformat City, Company name, Job Title to have the first letter of every word to be uppercase",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/128",
+    "title": "Hide company name, rating and comment if it has not more than 5 users having set their salaries",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/127",
+    "title": "Set the default stars for rating to 0",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/122",
     "title": "Put Pagination after the Average salary row",
     "author": "Theryx",
-    "labels": []
+    "labels": [
+      "frontend"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/121",
@@ -600,12 +664,6 @@
     "issue": "https://github.com/osscameroon/camerdevs/issues/119",
     "title": "Remove regular expresssion inside filter plugin for thousands separator",
     "author": "GenjiruSUchiwa",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/117",
-    "title": "Set website title to \"Jobsika\"",
-    "author": "elhmn",
     "labels": [
       "frontend"
     ]
