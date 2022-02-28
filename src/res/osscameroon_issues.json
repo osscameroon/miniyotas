@@ -466,6 +466,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/onacut/issues/44",
+    "title": "Redesign the User Interface",
+    "author": "Theryx",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/onacut/issues/42",
     "title": "Is there a ROADMAP",
     "author": "Sanix-Darker",
@@ -589,27 +595,19 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/137",
-    "title": "Remove the incremental buttons in the salary imput fields",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/145",
+    "title": "Update ReadMe doc about Jobsika",
     "author": "Theryx",
     "labels": [
-      "frontend"
+      "documentation"
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/135",
-    "title": "Rename Preview word on the filters",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/144",
+    "title": "Design Jobsika Logo",
     "author": "Theryx",
     "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/133",
-    "title": "Typo on the subtittle",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
+      "documentation"
     ]
   },
   {
