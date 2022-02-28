@@ -613,14 +613,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/132",
-    "title": "Design for the pagination on mobile.",
-    "author": "Asam237",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/129",
     "title": "Reformat City, Company name, Job Title to have the first letter of every word to be uppercase",
     "author": "elhmn",
@@ -661,14 +653,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/119",
-    "title": "Remove regular expresssion inside filter plugin for thousands separator",
-    "author": "GenjiruSUchiwa",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/116",
     "title": "Dockerise frontend and prepare for deployment",
     "author": "elhmn",
@@ -688,14 +672,6 @@
     "issue": "https://github.com/osscameroon/camerdevs/issues/103",
     "title": "The autocomplete is very slow and a little buggy",
     "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/91",
-    "title": "show the current page and the total number of page and mobiles devices??",
-    "author": "Zaker237",
     "labels": [
       "frontend"
     ]
