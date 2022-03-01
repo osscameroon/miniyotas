@@ -595,6 +595,28 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/149",
+    "title": "Styling of the add salary page",
+    "author": "Asam237",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/148",
+    "title": "Ability to calculate your NET or Gross salary",
+    "author": "Theryx",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/147",
+    "title": "Provide a list of job tittles in Cameroon in English",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/145",
     "title": "Update ReadMe doc about Jobsika",
     "author": "Theryx",
