@@ -113,7 +113,9 @@
     "issue": "https://github.com/osscameroon/Open-Projects/issues/23",
     "title": "Quizo",
     "author": "Sanix-Darker",
-    "labels": []
+    "labels": [
+      "Started"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/22",
@@ -125,79 +127,81 @@
     "issue": "https://github.com/osscameroon/Open-Projects/issues/21",
     "title": "osscameroon games telegram group",
     "author": "elhmn",
-    "labels": []
+    "labels": [
+      "Started"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/20",
     "title": "Links.cm",
     "author": "wdjopa",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/Open-Projects/issues/19",
-    "title": "Implementation of quantum computing community",
-    "author": "w4b4l",
-    "labels": []
+    "labels": [
+      "Stalled"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/12",
     "title": "Django Builder",
     "author": "jefcolbi",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/Open-Projects/issues/9",
-    "title": "OSSCameroon page on medium",
-    "author": "guediagael",
-    "labels": []
+    "labels": [
+      "Started"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/8",
     "title": "Broken Link Checker",
     "author": "tericcabrel",
-    "labels": []
+    "labels": [
+      "Started"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/7",
     "title": "Data-requester (tbc?)",
     "author": "afranck64",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/Open-Projects/issues/6",
-    "title": "HawaBot",
-    "author": "Sanix-Darker",
-    "labels": []
+    "labels": [
+      "Started"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/5",
     "title": "Camer online PII management (or something else...I'm not  good with names)",
     "author": "guediagael",
-    "labels": []
+    "labels": [
+      "Stalled"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/4",
     "title": "Yotas",
     "author": "elhmn",
-    "labels": []
+    "labels": [
+      "Started"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/3",
     "title": "On nous a cut",
     "author": "elhmn",
-    "labels": []
+    "labels": [
+      "Started"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/2",
     "title": "CM AppStore",
     "author": "Geekles007",
-    "labels": []
+    "labels": [
+      "Started"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/Open-Projects/issues/1",
     "title": "jsGenerator",
     "author": "FanJups",
-    "labels": []
+    "labels": [
+      "Started"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/js-generator/issues/12",
@@ -595,9 +599,15 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/149",
-    "title": "Styling of the add salary page",
-    "author": "Asam237",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/152",
+    "title": "autocompation shoud be show just when the field is taget",
+    "author": "Zaker237",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/151",
+    "title": "average starts should be show beside of average salary",
+    "author": "Zaker237",
     "labels": []
   },
   {
@@ -683,14 +693,6 @@
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/114",
     "title": "Rating creation does not work very well with empty companies/jobtitles or cities",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/103",
-    "title": "The autocomplete is very slow and a little buggy",
     "author": "elhmn",
     "labels": [
       "frontend"
