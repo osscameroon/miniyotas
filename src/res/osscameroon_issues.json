@@ -599,6 +599,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/153",
+    "title": "Pagination should be compabilble with filters",
+    "author": "Zaker237",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/152",
     "title": "autocompation shoud be show just when the field is taget",
     "author": "Zaker237",
