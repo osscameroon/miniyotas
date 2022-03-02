@@ -566,12 +566,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/global-github-actions/issues/63",
-    "title": "fix(report quiz): all the quiz answers are not take in account",
-    "author": "pythonbrad",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/61",
     "title": "fix(report quote): fail",
     "author": "pythonbrad",
@@ -599,22 +593,19 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/153",
-    "title": "Pagination should be compabilble with filters",
-    "author": "Zaker237",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/162",
+    "title": "Autocompletion not working on mobile side ",
+    "author": "Asam237",
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/152",
-    "title": "autocompation shoud be show just when the field is taget",
-    "author": "Zaker237",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/151",
-    "title": "average starts should be show beside of average salary",
-    "author": "Zaker237",
-    "labels": []
+    "issue": "https://github.com/osscameroon/camerdevs/issues/160",
+    "title": "When selecting a filter and then moving to page left or right the page list still shows the data without filter",
+    "author": "elhmn",
+    "labels": [
+      "bug",
+      "frontend"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/148",
@@ -665,22 +656,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/127",
-    "title": "Set the default stars for rating to 0",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/122",
-    "title": "Put Pagination after the Average salary row",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/121",
     "title": "Change the ico of the app",
     "author": "Zaker237",
@@ -691,14 +666,6 @@
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/116",
     "title": "Dockerise frontend and prepare for deployment",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/114",
-    "title": "Rating creation does not work very well with empty companies/jobtitles or cities",
     "author": "elhmn",
     "labels": [
       "frontend"
