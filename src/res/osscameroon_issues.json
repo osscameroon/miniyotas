@@ -593,6 +593,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/164",
+    "title": "Remove possibility to add a space in Add salary field",
+    "author": "Theryx",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/162",
     "title": "Autocompletion not working on mobile side ",
     "author": "Asam237",
