@@ -593,27 +593,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/164",
-    "title": "Remove possibility to add a space in Add salary field",
-    "author": "Theryx",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/162",
-    "title": "Autocompletion not working on mobile side ",
-    "author": "Asam237",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/160",
-    "title": "When selecting a filter and then moving to page left or right the page list still shows the data without filter",
-    "author": "elhmn",
-    "labels": [
-      "bug",
-      "frontend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/148",
     "title": "Ability to calculate your NET or Gross salary",
     "author": "Theryx",
@@ -665,14 +644,6 @@
     "issue": "https://github.com/osscameroon/camerdevs/issues/121",
     "title": "Change the ico of the app",
     "author": "Zaker237",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/116",
-    "title": "Dockerise frontend and prepare for deployment",
-    "author": "elhmn",
     "labels": [
       "frontend"
     ]
