@@ -548,12 +548,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/global-github-actions/issues/67",
-    "title": "fix(report quiz): the quiz skipped is not really replaced",
-    "author": "pythonbrad",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/66",
     "title": "feat(report quiz): multiple choice",
     "author": "pythonbrad",
