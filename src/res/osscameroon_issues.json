@@ -204,6 +204,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/22",
+    "title": "Useful links to create a site documentation with maven site plugin and Github",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/12",
     "title": "Steps for the Whole Project to follow",
     "author": "FanJups",
