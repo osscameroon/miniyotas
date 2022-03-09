@@ -476,6 +476,18 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/onacut/issues/48",
+    "title": "Customize city details ",
+    "author": "Asam237",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/46",
+    "title": "Use a constant file for static data  and refartor",
+    "author": "Asam237",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/onacut/issues/44",
     "title": "Redesign the User Interface",
     "author": "Theryx",
