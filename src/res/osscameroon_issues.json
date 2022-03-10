@@ -476,6 +476,30 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/onacut/issues/52",
+    "title": "add and endpoint to get the list of quartiers",
+    "author": "Zaker237",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/51",
+    "title": "add and endpoint tu get the list of cities",
+    "author": "Zaker237",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/50",
+    "title": "implement filter on alert in backend",
+    "author": "Zaker237",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/49",
+    "title": "dockerise the backend",
+    "author": "Zaker237",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/onacut/issues/48",
     "title": "Customize city details ",
     "author": "Asam237",
