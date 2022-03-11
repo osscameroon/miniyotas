@@ -476,6 +476,14 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/onacut/issues/59",
+    "title": "Integration end point alerts",
+    "author": "Asam237",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/onacut/issues/54",
     "title": "add PEP verification in the workflow",
     "author": "Zaker237",
@@ -514,12 +522,6 @@
     "labels": [
       "backend"
     ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/onacut/issues/46",
-    "title": "Use a constant file for static data  and refartor",
-    "author": "Asam237",
-    "labels": []
   },
   {
     "issue": "https://github.com/osscameroon/onacut/issues/44",
