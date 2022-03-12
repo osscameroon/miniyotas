@@ -476,11 +476,11 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/onacut/issues/59",
-    "title": "Integration end point alerts",
-    "author": "Asam237",
+    "issue": "https://github.com/osscameroon/onacut/issues/60",
+    "title": "implement en endpoint to post new alerts",
+    "author": "Zaker237",
     "labels": [
-      "frontend"
+      "backend"
     ]
   },
   {
@@ -494,14 +494,6 @@
   {
     "issue": "https://github.com/osscameroon/onacut/issues/52",
     "title": "add and endpoint to get the list of quartiers",
-    "author": "Zaker237",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/onacut/issues/51",
-    "title": "add and endpoint tu get the list of cities",
     "author": "Zaker237",
     "labels": [
       "backend"
