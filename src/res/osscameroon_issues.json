@@ -476,6 +476,22 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/onacut/issues/71",
+    "title": "Integration endpoint of filters on /alerts on list page",
+    "author": "Asam237",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/70",
+    "title": "Integration endpoint for regions",
+    "author": "Asam237",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/onacut/issues/60",
     "title": "implement en endpoint to post new alerts",
     "author": "Zaker237",
@@ -486,22 +502,6 @@
   {
     "issue": "https://github.com/osscameroon/onacut/issues/54",
     "title": "add PEP verification in the workflow",
-    "author": "Zaker237",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/onacut/issues/52",
-    "title": "add and endpoint to get the list of quartiers",
-    "author": "Zaker237",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/onacut/issues/50",
-    "title": "implement filter on alert in backend",
     "author": "Zaker237",
     "labels": [
       "backend"
@@ -543,12 +543,6 @@
     "issue": "https://github.com/osscameroon/onacut/issues/21",
     "title": "Addition of the coordinates of the various cities of Cameroon",
     "author": "Asam237",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/onacut/issues/17",
-    "title": "Add a return button that allows to move from the alert page to the list page",
-    "author": "elhmn",
     "labels": []
   },
   {
