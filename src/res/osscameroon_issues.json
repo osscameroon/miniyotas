@@ -204,6 +204,24 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/33",
+    "title": "how to create maven plugin ?",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/js-generator/issues/32",
+    "title": "how to create maven dependency ?",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/js-generator/issues/31",
+    "title": "Test",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/22",
     "title": "Useful links to create a site documentation with maven site plugin and Github",
     "author": "FanJups",
@@ -476,16 +494,8 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/onacut/issues/71",
-    "title": "Integration endpoint of filters on /alerts on list page",
-    "author": "Asam237",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/onacut/issues/70",
-    "title": "Integration endpoint for regions",
+    "issue": "https://github.com/osscameroon/onacut/issues/73",
+    "title": "Fix bug title of alert and refactor",
     "author": "Asam237",
     "labels": [
       "frontend"
