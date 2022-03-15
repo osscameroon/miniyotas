@@ -494,12 +494,16 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/onacut/issues/73",
-    "title": "Fix bug title of alert and refactor",
-    "author": "Asam237",
-    "labels": [
-      "frontend"
-    ]
+    "issue": "https://github.com/osscameroon/onacut/issues/77",
+    "title": "Writte api e2e test",
+    "author": "Zaker237",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/76",
+    "title": "Github action to check PEP spec",
+    "author": "Zaker237",
+    "labels": []
   },
   {
     "issue": "https://github.com/osscameroon/onacut/issues/60",
