@@ -514,14 +514,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/onacut/issues/54",
-    "title": "add PEP verification in the workflow",
-    "author": "Zaker237",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/onacut/issues/49",
     "title": "dockerise the backend",
     "author": "Zaker237",
