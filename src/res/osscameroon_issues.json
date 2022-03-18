@@ -558,6 +558,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/data-requester/issues/8",
+    "title": "**Add a django command to donwload tweets**",
+    "author": "Hawawou",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/miniyotas/issues/7",
     "title": "Add sort by select button",
     "author": "elhmn",
