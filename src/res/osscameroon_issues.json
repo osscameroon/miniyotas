@@ -687,14 +687,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/121",
-    "title": "Change the ico of the app",
-    "author": "Zaker237",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/88",
     "title": "The backend should reformat `companies` and `jobtitles` sent by the users",
     "author": "elhmn",
