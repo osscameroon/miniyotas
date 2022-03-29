@@ -204,6 +204,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/38",
+    "title": "Make an Open Source project popular",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/33",
     "title": "how to create maven plugin ?",
     "author": "FanJups",
@@ -492,6 +498,14 @@
     "title": "Development",
     "author": "Sanix-Darker",
     "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/81",
+    "title": "Integration of endpoint of cities in streetmap",
+    "author": "Asam237",
+    "labels": [
+      "frontend"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/onacut/issues/77",
