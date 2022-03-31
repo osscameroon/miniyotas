@@ -500,14 +500,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/onacut/issues/86",
-    "title": "create an globla variable for API_BASE_URL",
-    "author": "Zaker237",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/onacut/issues/85",
     "title": "Remove the cities duplicated on the same points and factorize the alerts of districts ",
     "author": "Asam237",
