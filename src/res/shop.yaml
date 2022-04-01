@@ -33,15 +33,6 @@ items:
     github_handle: Sanix-Darker
     github_account: https://github.com/Sanix-Darker
 
-  - title: 1h Mentoring session with Elhmn
-    description: |
-      Get a mentoring session with Elhmn, in Javascript, Typescript, React, Python, C/C++, Golang, Bash, CI/CD, Operations.
-    price: 5
-    available: true
-    image: default.svg
-    github_handle: elhmn
-    github_account: https://github.com/elhmn
-
   - title: 1h Mentoring session with Eric
     description: |
       Get a mentoring session with Eric in, Java, Javascript, Typescript, React, CI/CD, devOps.
