@@ -204,6 +204,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/41",
+    "title": "Self Closing Tag Issue",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/38",
     "title": "Make an Open Source project popular",
     "author": "FanJups",
@@ -500,6 +506,14 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/onacut/issues/90",
+    "title": "Add instructions to run the backend in a README.md",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/onacut/issues/77",
     "title": "Writte api e2e test",
     "author": "Zaker237",
@@ -521,7 +535,7 @@
   },
   {
     "issue": "https://github.com/osscameroon/onacut/issues/49",
-    "title": "dockerise the backend",
+    "title": "dockerise the dev env",
     "author": "Zaker237",
     "labels": [
       "backend"
@@ -645,6 +659,86 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/181",
+    "title": "Set the tooltip on the homepage `anonymous`",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/180",
+    "title": "Rate",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/179",
+    "title": "Comments",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/178",
+    "title": "Seniority",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/177",
+    "title": "Monthly Salary (FCFA)",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/176",
+    "title": "City",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/175",
+    "title": "Job Title",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/174",
+    "title": "Company Name",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/173",
+    "title": "Add tooltip `?` button that opens a modal with some explanations related to the field it is associated to",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/172",
+    "title": "Disable the `Details` button on salaries entries that has empty comment",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/148",
     "title": "Ability to calculate your NET or Gross salary",
     "author": "Theryx",
@@ -669,32 +763,8 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/144",
-    "title": "Design Jobsika Logo",
-    "author": "Theryx",
-    "labels": [
-      "documentation"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/129",
-    "title": "Reformat City, Company name, Job Title to have the first letter of every word to be uppercase",
-    "author": "elhmn",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/128",
     "title": "Hide company name, rating and comment if it has not more than 5 users having set their salaries",
-    "author": "elhmn",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/88",
-    "title": "The backend should reformat `companies` and `jobtitles` sent by the users",
     "author": "elhmn",
     "labels": [
       "backend"
