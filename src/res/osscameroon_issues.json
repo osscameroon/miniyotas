@@ -659,16 +659,12 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/184",
-    "title": "Add default jobtitles",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/187",
+    "title": "Deploy the backend at jobsika.cm",
     "author": "elhmn",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/183",
-    "title": "Add default companies",
-    "author": "elhmn",
-    "labels": []
+    "labels": [
+      "backend"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/181",
@@ -777,14 +773,6 @@
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/128",
     "title": "Hide company name, rating and comment if it has not more than 5 users having set their salaries",
-    "author": "elhmn",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/87",
-    "title": "Add default values to the GET `companies` and `jobtitles` endpoint",
     "author": "elhmn",
     "labels": [
       "backend"
