@@ -659,6 +659,18 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/184",
+    "title": "Add default jobtitles",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/183",
+    "title": "Add default companies",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/181",
     "title": "Set the tooltip on the homepage `anonymous`",
     "author": "elhmn",
