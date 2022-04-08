@@ -626,12 +626,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/global-github-actions/issues/65",
-    "title": "feat(report quiz): Add quiz context",
-    "author": "pythonbrad",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/61",
     "title": "fix(report quote): fail",
     "author": "pythonbrad",
