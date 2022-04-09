@@ -653,6 +653,14 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/190",
+    "title": "Add validation to the contribution page",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/187",
     "title": "Deploy the backend at jobsika.cm",
     "author": "elhmn",
@@ -663,70 +671,6 @@
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/181",
     "title": "Set the tooltip on the homepage `anonymous`",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/180",
-    "title": "Rate",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/179",
-    "title": "Comments",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/178",
-    "title": "Seniority",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/177",
-    "title": "Monthly Salary (FCFA)",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/176",
-    "title": "City",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/175",
-    "title": "Job Title",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/174",
-    "title": "Company Name",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/173",
-    "title": "Add tooltip `?` button that opens a modal with some explanations related to the field it is associated to",
     "author": "elhmn",
     "labels": [
       "frontend"
@@ -746,14 +690,6 @@
     "author": "Theryx",
     "labels": [
       "enhancement"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/147",
-    "title": "Provide a list of job tittles in Cameroon in English",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
     ]
   },
   {
