@@ -653,6 +653,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/194",
+    "title": "Update other exclamation icons",
+    "author": "Theryx",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/190",
     "title": "Add validation to the contribution page",
     "author": "elhmn",
@@ -666,22 +672,6 @@
     "author": "elhmn",
     "labels": [
       "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/181",
-    "title": "Set the tooltip on the homepage `anonymous`",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/172",
-    "title": "Disable the `Details` button on salaries entries that has empty comment",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
     ]
   },
   {
