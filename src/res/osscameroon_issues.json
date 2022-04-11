@@ -719,5 +719,41 @@
     "labels": [
       "backend"
     ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/sami/issues/8",
+    "title": "As a dev i have a formated CLI !",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/sami/issues/7",
+    "title": "As a dev i can parse sami-yml file and validate content",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/sami/issues/6",
+    "title": "As a dev i can run a 'sami deploy'",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/sami/issues/5",
+    "title": "As a dev i can run 'sami logs'",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/sami/issues/4",
+    "title": "As a dev i can run 'sami oob'",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/sami/issues/3",
+    "title": "As a dev i can run 'sami status'",
+    "author": "Sanix-Darker",
+    "labels": []
   }
 ]
