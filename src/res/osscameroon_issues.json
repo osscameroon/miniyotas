@@ -584,6 +584,14 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/miniyotas/issues/24",
+    "title": "The current page is not highlighted",
+    "author": "elhmn",
+    "labels": [
+      "5 Yotas"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/miniyotas/issues/7",
     "title": "Add sort by select button",
     "author": "elhmn",
@@ -593,16 +601,36 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerapps.com/issues/29",
-    "title": "deploy action not execute the latest changes of the script",
-    "author": "DipandaAser",
-    "labels": []
+    "issue": "https://github.com/osscameroon/camerapps.com/issues/42",
+    "title": "Dockerise camerapps",
+    "author": "elhmn",
+    "labels": [
+      "10 Yotas"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerapps.com/issues/41",
+    "title": "Application should be submitted using issue forms",
+    "author": "elhmn",
+    "labels": [
+      "40 Yotas"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerapps.com/issues/40",
+    "title": "The current page is not highlighted",
+    "author": "elhmn",
+    "labels": [
+      "5 Yotas"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerapps.com/issues/5",
     "title": "add few  apps suggested by the osscameroon community",
     "author": "elhmn",
-    "labels": []
+    "labels": [
+      "15 Yotas"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerapps.com/issues/1",
@@ -650,12 +678,6 @@
     "issue": "https://github.com/osscameroon/Branding/issues/1",
     "title": "Add the osscameroon branding `pdf` and `logos`",
     "author": "elhmn",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/194",
-    "title": "Update other exclamation icons",
-    "author": "Theryx",
     "labels": []
   },
   {
