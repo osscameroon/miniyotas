@@ -110,6 +110,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/project-ideas/issues/30",
+    "title": "Google Play Store and AppStore Download Ranking of Cameroonian Apps",
+    "author": "leonzo",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/project-ideas/issues/23",
     "title": "Quizo",
     "author": "Sanix-Darker",
@@ -578,12 +584,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/data-requester/issues/8",
-    "title": "**Add a django command to donwload tweets**",
-    "author": "Hawawou",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/miniyotas/issues/24",
     "title": "The current page is not highlighted",
     "author": "elhmn",
@@ -666,26 +666,73 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/global-github-actions/issues/55",
-    "title": "fix: we don't want to post a quiz if poll's options are too long (>99 characters)",
-    "author": "Sanix-Darker",
-    "labels": [
-      "10 Yotas",
-      "bug"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/Branding/issues/1",
     "title": "Add the osscameroon branding `pdf` and `logos`",
     "author": "elhmn",
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/190",
-    "title": "Add validation to the contribution page",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/213",
+    "title": "Remove the tooltip detail background color",
     "author": "elhmn",
     "labels": [
       "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/212",
+    "title": "Change form items alignment",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/210",
+    "title": "Place form fields in a vertical stack",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/209",
+    "title": "The `ratings` are not mandatory anymore",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/206",
+    "title": "Add `Intern` as possible seniority level",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/202",
+    "title": "Set Rating, Company name, Jobtitles as Mandatory field for the rating `POST` request",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/198",
+    "title": "Do not consider ratings == 0 , when calculating the average rating",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/197",
+    "title": "We should not return ratings that are hidden when filters are applied to the `jobtitles` and `companies`",
+    "author": "elhmn",
+    "labels": [
+      "backend"
     ]
   },
   {
@@ -710,14 +757,6 @@
     "author": "Theryx",
     "labels": [
       "documentation"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/128",
-    "title": "Hide company name, rating and comment if it has not more than 5 users having set their salaries",
-    "author": "elhmn",
-    "labels": [
-      "backend"
     ]
   },
   {
@@ -755,5 +794,67 @@
     "title": "As a dev i can run 'sami status'",
     "author": "Sanix-Darker",
     "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/broken_link_checker/issues/45",
+    "title": "fix: problem of circular checking",
+    "author": "pythonbrad",
+    "labels": [
+      "fix"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/broken_link_checker/issues/36",
+    "title": "extend Python versions support",
+    "author": "afranck64",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/broken_link_checker/issues/34",
+    "title": "improve: more understandable report",
+    "author": "pythonbrad",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/broken_link_checker/issues/33",
+    "title": "fix: problem of http status_code",
+    "author": "pythonbrad",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/broken_link_checker/issues/7",
+    "title": "feat: add a Makefile",
+    "author": "Sanix-Darker",
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/podcasts/issues/19",
+    "title": "Add a static player",
+    "author": "yokwejuste",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/podcasts/issues/17",
+    "title": "Make the search bar dynamic (means making it work)",
+    "author": "godsakani",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/podcasts/issues/13",
+    "title": "Add static sort button next to the search bar",
+    "author": "yokwejuste",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/podcasts/issues/12",
+    "title": "add the static list of podcasts",
+    "author": "godsakani",
+    "labels": [
+      "enhancement"
+    ]
   }
 ]
