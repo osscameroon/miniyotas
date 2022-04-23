@@ -672,6 +672,56 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/222",
+    "title": "Update the description of the comment field",
+    "author": "Theryx",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/221",
+    "title": "Update description about Rate field",
+    "author": "Theryx",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/220",
+    "title": "Update description of salary field",
+    "author": "Theryx",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/218",
+    "title": "Update Town description",
+    "author": "Theryx",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/217",
+    "title": "Update Seniority description",
+    "author": "Theryx",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/216",
+    "title": "Update Job tittle description",
+    "author": "Theryx",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/215",
+    "title": "Update description of Company Name",
+    "author": "Theryx",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/214",
+    "title": "Update description on the home screen",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/213",
     "title": "Remove the tooltip detail background color",
     "author": "elhmn",
