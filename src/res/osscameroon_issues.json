@@ -672,83 +672,31 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/222",
-    "title": "Update the description of the comment field",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/233",
+    "title": "Update filter dropdown",
     "author": "Theryx",
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/221",
-    "title": "Update description about Rate field",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/232",
+    "title": "OSS Cameroon copyright added",
     "author": "Theryx",
-    "labels": []
+    "labels": [
+      "frontend"
+    ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/220",
-    "title": "Update description of salary field",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/231",
+    "title": "Table row height and widht updated",
     "author": "Theryx",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/218",
-    "title": "Update Town description",
-    "author": "Theryx",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/217",
-    "title": "Update Seniority description",
-    "author": "Theryx",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/216",
-    "title": "Update Job tittle description",
-    "author": "Theryx",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/215",
-    "title": "Update description of Company Name",
-    "author": "Theryx",
-    "labels": []
+    "labels": [
+      "frontend"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/214",
     "title": "Update description on the home screen",
     "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/213",
-    "title": "Remove the tooltip detail background color",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/212",
-    "title": "Change form items alignment",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/210",
-    "title": "Place form fields in a vertical stack",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/209",
-    "title": "The `ratings` are not mandatory anymore",
-    "author": "elhmn",
     "labels": [
       "frontend"
     ]
