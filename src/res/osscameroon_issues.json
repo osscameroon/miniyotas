@@ -672,8 +672,64 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/240",
-    "title": "Update anatomy of the input field",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/258",
+    "title": "Update filters",
+    "author": "Theryx",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/257",
+    "title": "Update filters",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/255",
+    "title": "Change form welcome message",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/253",
+    "title": "Add a allert when empty compulsory fields detected",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/251",
+    "title": "Update rating design on mobile",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/250",
+    "title": "Optimize filters on mobile",
+    "author": "Theryx",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/249",
+    "title": "Remove up down keys on salary fields",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/248",
+    "title": "Rating description on top",
     "author": "Theryx",
     "labels": [
       "frontend"
@@ -683,38 +739,8 @@
     "issue": "https://github.com/osscameroon/camerdevs/issues/233",
     "title": "Update filter dropdown",
     "author": "Theryx",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/214",
-    "title": "Update description on the home screen",
-    "author": "Theryx",
     "labels": [
       "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/206",
-    "title": "Add `Intern` as possible seniority level",
-    "author": "elhmn",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/202",
-    "title": "Set Rating, Company name, Jobtitles as Mandatory field for the rating `POST` request",
-    "author": "elhmn",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/198",
-    "title": "Do not consider ratings == 0 , when calculating the average rating",
-    "author": "elhmn",
-    "labels": [
-      "backend"
     ]
   },
   {
