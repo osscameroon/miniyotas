@@ -672,26 +672,18 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/240",
+    "title": "Update anatomy of the input field",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/233",
     "title": "Update filter dropdown",
     "author": "Theryx",
     "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/232",
-    "title": "OSS Cameroon copyright added",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/231",
-    "title": "Table row height and widht updated",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/214",
