@@ -672,9 +672,17 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/260",
-    "title": "Apply border radius to table rows",
-    "author": "Theryx",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/267",
+    "title": "Bring back the Company filter",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/266",
+    "title": "Remove the message at the bottom of the contribution page",
+    "author": "elhmn",
     "labels": [
       "frontend"
     ]
@@ -688,59 +696,11 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/257",
-    "title": "Update filters",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/255",
-    "title": "Change form welcome message",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/253",
-    "title": "Add a allert when empty compulsory fields detected",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/251",
-    "title": "Update rating design on mobile",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/250",
     "title": "Optimize filters on mobile",
     "author": "Theryx",
     "labels": [
       "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/249",
-    "title": "Remove up down keys on salary fields",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/248",
-    "title": "Rating description on top",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
     ]
   },
   {
@@ -820,6 +780,14 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/broken_link_checker/issues/50",
+    "title": "Migration from urllib3 to request",
+    "author": "pythonbrad",
+    "labels": [
+      "question"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/broken_link_checker/issues/36",
     "title": "extend Python versions support",
     "author": "afranck64",
@@ -835,12 +803,6 @@
     "issue": "https://github.com/osscameroon/podcasts/issues/19",
     "title": "Add a static player",
     "author": "yokwejuste",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/podcasts/issues/17",
-    "title": "Make the search bar dynamic (means making it work)",
-    "author": "godsakani",
     "labels": []
   },
   {
