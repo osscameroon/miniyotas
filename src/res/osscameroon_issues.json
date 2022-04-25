@@ -672,6 +672,14 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/260",
+    "title": "Apply border radius to table rows",
+    "author": "Theryx",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/258",
     "title": "Update filters",
     "author": "Theryx",
@@ -812,40 +820,16 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/broken_link_checker/issues/45",
-    "title": "fix: problem of circular checking",
-    "author": "pythonbrad",
-    "labels": [
-      "fix"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/broken_link_checker/issues/36",
     "title": "extend Python versions support",
     "author": "afranck64",
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/broken_link_checker/issues/34",
-    "title": "improve: more understandable report",
-    "author": "pythonbrad",
-    "labels": [
-      "enhancement"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/broken_link_checker/issues/33",
     "title": "fix: problem of http status_code",
     "author": "pythonbrad",
     "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/broken_link_checker/issues/7",
-    "title": "feat: add a Makefile",
-    "author": "Sanix-Darker",
-    "labels": [
-      "enhancement"
-    ]
   },
   {
     "issue": "https://github.com/osscameroon/podcasts/issues/19",
