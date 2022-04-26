@@ -672,9 +672,49 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/258",
-    "title": "Update filters",
-    "author": "Theryx",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/277",
+    "title": "Comment out the filters that are yet ready. [BEFORE LAUNCH] - this PR should be done on Saturday ",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/276",
+    "title": "Implement `seniority` filter by `GET /ratings?page=<page_number>&limit=<limit>&seniority=<seniority>`",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/275",
+    "title": "Implement `cities` filter by `GET /ratings?page=<page_number>&limit=<limit>&city=<city>`",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/274",
+    "title": "The `cities` filter should use the `GET /cities` endpoint for its dropdown",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/273",
+    "title": "The seniority filter should use the `GET /seniority` endpoint for its dropdown",
+    "author": "elhmn",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/272",
+    "title": "Implement `GET /cities` endpoint ",
+    "author": "elhmn",
     "labels": [
       "backend"
     ]
@@ -684,7 +724,8 @@
     "title": "Optimize filters on mobile",
     "author": "Theryx",
     "labels": [
-      "backend"
+      "bug",
+      "frontend"
     ]
   },
   {
