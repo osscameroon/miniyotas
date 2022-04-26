@@ -672,22 +672,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/267",
-    "title": "Bring back the Company filter",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/266",
-    "title": "Remove the message at the bottom of the contribution page",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/258",
     "title": "Update filters",
     "author": "Theryx",
@@ -810,13 +794,5 @@
     "title": "Add static sort button next to the search bar",
     "author": "yokwejuste",
     "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/podcasts/issues/12",
-    "title": "add the static list of podcasts",
-    "author": "godsakani",
-    "labels": [
-      "enhancement"
-    ]
   }
 ]
