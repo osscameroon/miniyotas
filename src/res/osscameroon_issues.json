@@ -737,14 +737,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/197",
-    "title": "We should not return ratings that are hidden when filters are applied to the `jobtitles` and `companies`",
-    "author": "elhmn",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/187",
     "title": "Deploy the backend at jobsika.cm",
     "author": "elhmn",
