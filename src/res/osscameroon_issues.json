@@ -823,6 +823,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/podcasts/issues/17",
+    "title": "Make the search bar dynamic (means making it work)",
+    "author": "godsakani",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/podcasts/issues/13",
     "title": "Add static sort button next to the search bar",
     "author": "yokwejuste",
