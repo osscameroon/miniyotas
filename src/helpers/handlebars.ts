@@ -44,3 +44,7 @@ export const repoName = (v1: string): string => {
   const part: Array<string> = v1.split('/');
   return `${part[3]}/${part[4]}`;
 }
+
+export const ifContains = (a: string, b: string): boolean => {
+  return a.slice(-1).includes(b);
+}
