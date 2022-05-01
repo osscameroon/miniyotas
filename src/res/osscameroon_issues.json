@@ -246,12 +246,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/js-generator/issues/10",
-    "title": "Show this repo PR on Oss Channel in telegram",
-    "author": "FanJups",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/js-generator/issues/6",
     "title": "Create a web app translating from Html to Js",
     "author": "elroykanye",
@@ -595,12 +589,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerapps.com/issues/45",
-    "title": "SSL certificate is expired",
-    "author": "sidikfaha",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/camerapps.com/issues/42",
     "title": "Dockerise camerapps",
     "author": "elhmn",
@@ -678,15 +666,42 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/306",
-    "title": "Place latest contribution at top of table",
+    "issue": "https://github.com/osscameroon/jobsika/issues/324",
+    "title": "We should not return companies that are hidden when filters are applied to the 'companies'",
     "author": "Theryx",
     "labels": [
-      "frontend"
+      "backend"
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/305",
+    "issue": "https://github.com/osscameroon/jobsika/issues/318",
+    "title": "Currently there is no way to share a url of jobsika with the filters",
+    "author": "elhmn",
+    "labels": [
+      "frontend",
+      "curation"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/jobsika/issues/309",
+    "title": "writte a preview that will be show for the app on external app",
+    "author": "Zaker237",
+    "labels": [
+      "frontend",
+      "curation"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/jobsika/issues/306",
+    "title": "Place latest contribution at top of table",
+    "author": "Theryx",
+    "labels": [
+      "backend",
+      "curation"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/jobsika/issues/305",
     "title": "Setup cors and rate limits on traefik",
     "author": "elhmn",
     "labels": [
@@ -694,31 +709,16 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/302",
-    "title": "Left Align table tittles with corresponding items",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/300",
-    "title": "Adjust the length of filters",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/297",
+    "issue": "https://github.com/osscameroon/jobsika/issues/297",
     "title": "Realtime thousand separators",
     "author": "Theryx",
     "labels": [
-      "frontend"
+      "frontend",
+      "curation"
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/250",
+    "issue": "https://github.com/osscameroon/jobsika/issues/250",
     "title": "Optimize filters on mobile",
     "author": "Theryx",
     "labels": [
@@ -727,7 +727,7 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/233",
+    "issue": "https://github.com/osscameroon/jobsika/issues/233",
     "title": "Update filter dropdown",
     "author": "Theryx",
     "labels": [
@@ -735,7 +735,15 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/148",
+    "issue": "https://github.com/osscameroon/jobsika/issues/197",
+    "title": "We should not return ratings that are hidden when filters are applied to the `jobtitles` and `companies`",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/jobsika/issues/148",
     "title": "Ability to calculate your NET or Gross salary",
     "author": "Theryx",
     "labels": [
@@ -743,7 +751,7 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/145",
+    "issue": "https://github.com/osscameroon/jobsika/issues/145",
     "title": "Update ReadMe doc about Jobsika",
     "author": "Theryx",
     "labels": [
