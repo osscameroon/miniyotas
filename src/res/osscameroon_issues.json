@@ -678,24 +678,24 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/304",
-    "title": "Update type on comments",
+    "issue": "https://github.com/osscameroon/camerdevs/issues/306",
+    "title": "Place latest contribution at top of table",
     "author": "Theryx",
     "labels": [
       "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/camerdevs/issues/305",
+    "title": "Setup cors and rate limits on traefik",
+    "author": "elhmn",
+    "labels": [
+      "backend"
     ]
   },
   {
     "issue": "https://github.com/osscameroon/camerdevs/issues/302",
     "title": "Left Align table tittles with corresponding items",
-    "author": "Theryx",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/301",
-    "title": "Do not display average salary and ratings when no filter applyied",
     "author": "Theryx",
     "labels": [
       "frontend"
@@ -718,30 +718,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/277",
-    "title": "Comment out the filters that are yet ready. [BEFORE LAUNCH] - this PR should be done on Saturday ",
-    "author": "elhmn",
-    "labels": [
-      "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/276",
-    "title": "Implement `seniority` filter by `GET /ratings?page=<page_number>&limit=<limit>&seniority=<seniority>`",
-    "author": "elhmn",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/275",
-    "title": "Implement `cities` filter by `GET /ratings?page=<page_number>&limit=<limit>&city=<city>`",
-    "author": "elhmn",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/camerdevs/issues/250",
     "title": "Optimize filters on mobile",
     "author": "Theryx",
@@ -756,14 +732,6 @@
     "author": "Theryx",
     "labels": [
       "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerdevs/issues/187",
-    "title": "Deploy the backend at jobsika.cm",
-    "author": "elhmn",
-    "labels": [
-      "backend"
     ]
   },
   {
