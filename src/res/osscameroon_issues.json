@@ -210,6 +210,18 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/48",
+    "title": "Handle Exceptions in Java",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/js-generator/issues/47",
+    "title": "Migrate from java 11 to 17",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/38",
     "title": "Make an Open Source project popular",
     "author": "FanJups",
@@ -663,6 +675,12 @@
     "issue": "https://github.com/osscameroon/Branding/issues/1",
     "title": "Add the osscameroon branding `pdf` and `logos`",
     "author": "elhmn",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/jobsika/issues/327",
+    "title": "Add possibility to mention with contract or not while contributing",
+    "author": "valerymelou",
     "labels": []
   },
   {
