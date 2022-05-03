@@ -678,6 +678,14 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/jobsika/issues/331",
+    "title": "Don't calculate average ratings for hidden company's data",
+    "author": "elhmn",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/jobsika/issues/327",
     "title": "Add possibility to mention with contract or not while contributing",
     "author": "valerymelou",
@@ -750,14 +758,6 @@
     "author": "Theryx",
     "labels": [
       "frontend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/jobsika/issues/197",
-    "title": "We should not return ratings that are hidden when filters are applied to the `jobtitles` and `companies`",
-    "author": "elhmn",
-    "labels": [
-      "backend"
     ]
   },
   {
