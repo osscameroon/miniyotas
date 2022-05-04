@@ -210,6 +210,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/51",
+    "title": "Javadoc",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/48",
     "title": "Handle Exceptions in Java",
     "author": "FanJups",
