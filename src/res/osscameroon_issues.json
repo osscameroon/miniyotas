@@ -819,14 +819,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/broken_link_checker/issues/50",
-    "title": "Migration from urllib3 to request",
-    "author": "pythonbrad",
-    "labels": [
-      "question"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/broken_link_checker/issues/36",
     "title": "extend Python versions support",
     "author": "afranck64",
