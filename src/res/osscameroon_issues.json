@@ -819,6 +819,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/broken_link_checker/issues/58",
+    "title": "feat: full fetch even for js generated websites",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/broken_link_checker/issues/36",
     "title": "extend Python versions support",
     "author": "afranck64",
