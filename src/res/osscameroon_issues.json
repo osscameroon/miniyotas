@@ -596,6 +596,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/miniyotas/issues/26",
+    "title": "Dockerise miniyotas",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/miniyotas/issues/24",
     "title": "The current page is not highlighted",
     "author": "elhmn",
