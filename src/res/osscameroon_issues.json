@@ -849,6 +849,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/podcasts/issues/29",
+    "title": "Make the sort button actually work",
+    "author": "godsakani",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/podcasts/issues/19",
     "title": "Add a static player",
     "author": "yokwejuste",
