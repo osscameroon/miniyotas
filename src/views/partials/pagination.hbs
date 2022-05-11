@@ -17,7 +17,7 @@
         <li class="disabled page-item"><a class="page-link">...</a></li>
     {{/if}}
         {{#each (displayPagesNumber interval current pages)}}
-            {{#if (ifEqual . current 0)}}
+            {{#if (ifEqual . current 1 0)}}
                 <li class="active page-item"><a class="page-link">{{ . }}</a></li>
             {{else}}
                 {{#if @root.hasParams}}
@@ -31,7 +31,18 @@
                         <li class="page-item"><a href="{{@root.fullUrl}}&page={{.}}" class="page-link">{{ . }}</a></li>
                     {{/if}}
                 {{else}}
-                    <li class="page-item"><a href="{{@root.fullUrl}}?page={{.}}" class="page-link">{{ . }}</a></li>
+                {{#if (portContains @root.fullUrl "3000") }}
+                    {{#if (not (contains @root.fullUrl "page"))}}
+                        {{#if (contains @root.fullUrl 0 ) }}
+                          {{#if (ifEqual . 1 0)}}
+                        <li class="page-item active"><a href="{{@root.fullUrl}}?page={{.}}" class="page-link">{{ . }}</a></li>
+                          {{else}}<li class="page-item"><a href="{{@root.fullUrl}}?page={{.}}" class="page-link">{{ . }}</a></li>
+                          {{/if}}
+                      {{/if}}
+                    {{/if}}
+                  {{else}}
+                    <li class="page-item"><a href="{{@root.fullUrl}}?page={{.}}" class="page-link">s{{ . }}</a></li>
+                  {{/if}}
                 {{/if}}
             {{/if}}
             {{#if (ifEqual . current 4)}}
