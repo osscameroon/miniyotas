@@ -26,7 +26,6 @@ docker build -t miniyotas:latest /path/to/project/
 docker run -d -p 3000:3000 miniyotas 
 ```
 
-
 ## How to run on docker environment
 
 - build docker image
@@ -38,7 +37,6 @@ docker build -t miniyotas:latest /path/to/project/
 ``` 
 docker run -d -p 3000:3000 miniyotas 
 ```
-
 
 ## How do you earn yotas
 
