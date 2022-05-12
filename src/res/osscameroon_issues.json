@@ -40,14 +40,6 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/osscameroon-website/issues/163",
-    "title": "Create a telegram bot that will suggest new open source projects for the community to check out",
-    "author": "elhmn",
-    "labels": [
-      "feature"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/osscameroon-website/issues/155",
     "title": "[Join US] button should invite visitor to provide his github username",
     "author": "wilcoln",
@@ -616,14 +608,6 @@
     "labels": [
       "good first issue",
       "15 Yotas"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/camerapps.com/issues/42",
-    "title": "Dockerise camerapps",
-    "author": "elhmn",
-    "labels": [
-      "10 Yotas"
     ]
   },
   {
