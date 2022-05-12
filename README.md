@@ -10,7 +10,35 @@ You might need to install `yarn` and a `node` version >= 15
 Yotas are set by one of OSS Cameroon admin on this [spreadsheet](https://docs.google.com/spreadsheets/d/1T3eiwqCds2kvBsC2L4vh2kEE8zCa3ZaNHzB30spRHpw)
 
 ## How to run locally
-Run `yarn dev`
+- install the dependencies with `yarn install`
+
+- Run `yarn dev`
+
+## How to run on docker environment
+
+- build docker image
+```
+docker build -t miniyotas:latest /path/to/project/
+```
+
+- run docker container
+``` 
+docker run -d -p 3000:3000 miniyotas 
+```
+
+
+## How to run on docker environment
+
+- build docker image
+```
+docker build -t miniyotas:latest /path/to/project/
+```
+
+- run docker container
+``` 
+docker run -d -p 3000:3000 miniyotas 
+```
+
 
 ## How do you earn yotas
 
