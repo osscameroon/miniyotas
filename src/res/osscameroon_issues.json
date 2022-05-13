@@ -208,6 +208,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/52",
+    "title": "Declare a variable using \"var \" or not ?",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/51",
     "title": "Javadoc",
     "author": "FanJups",
