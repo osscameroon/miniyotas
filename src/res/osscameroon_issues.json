@@ -686,14 +686,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/jobsika/issues/331",
-    "title": "Don't calculate average ratings for hidden company's data",
-    "author": "elhmn",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/jobsika/issues/327",
     "title": "Add possibility to mention with contract or not while contributing",
     "author": "valerymelou",
