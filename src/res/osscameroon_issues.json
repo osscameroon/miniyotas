@@ -692,14 +692,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/jobsika/issues/324",
-    "title": "We should not return companies that are hidden when filters are applied to the 'companies'",
-    "author": "Theryx",
-    "labels": [
-      "backend"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/jobsika/issues/318",
     "title": "Currently there is no way to share a url of jobsika with the filters",
     "author": "elhmn",
