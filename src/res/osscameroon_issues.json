@@ -823,20 +823,14 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/podcasts/issues/29",
-    "title": "Make the sort button actually work",
-    "author": "godsakani",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/podcasts/issues/19",
-    "title": "Add a static player",
+    "issue": "https://github.com/osscameroon/podcasts/issues/31",
+    "title": "Integrate player's interactions",
     "author": "yokwejuste",
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/podcasts/issues/17",
-    "title": "Make the search bar dynamic (means making it work)",
+    "issue": "https://github.com/osscameroon/podcasts/issues/29",
+    "title": "Make the sort button actually work",
     "author": "godsakani",
     "labels": []
   },
