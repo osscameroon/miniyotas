@@ -686,6 +686,14 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/jobsika/issues/336",
+    "title": "Add City to the hidden filter",
+    "author": "DipandaAser",
+    "labels": [
+      "backend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/jobsika/issues/327",
     "title": "Add possibility to mention with contract or not while contributing",
     "author": "valerymelou",
@@ -832,12 +840,6 @@
     "issue": "https://github.com/osscameroon/podcasts/issues/29",
     "title": "Make the sort button actually work",
     "author": "godsakani",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/podcasts/issues/13",
-    "title": "Add static sort button next to the search bar",
-    "author": "yokwejuste",
     "labels": []
   }
 ]
