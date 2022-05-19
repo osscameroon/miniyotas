@@ -831,15 +831,15 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/podcasts/issues/31",
-    "title": "Integrate player's interactions",
-    "author": "yokwejuste",
+    "issue": "https://github.com/osscameroon/podcasts/issues/35",
+    "title": "Fetch the list of podcasts from an actual yaml file",
+    "author": "godsakani",
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/podcasts/issues/29",
-    "title": "Make the sort button actually work",
-    "author": "godsakani",
+    "issue": "https://github.com/osscameroon/podcasts/issues/31",
+    "title": "Integrate player's interactions",
+    "author": "yokwejuste",
     "labels": []
   }
 ]
