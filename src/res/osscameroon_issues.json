@@ -724,29 +724,11 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/jobsika/issues/306",
-    "title": "Place latest contribution at top of table",
-    "author": "Theryx",
-    "labels": [
-      "backend",
-      "curation"
-    ]
-  },
-  {
     "issue": "https://github.com/osscameroon/jobsika/issues/305",
     "title": "Setup cors and rate limits on traefik",
     "author": "elhmn",
     "labels": [
       "backend"
-    ]
-  },
-  {
-    "issue": "https://github.com/osscameroon/jobsika/issues/297",
-    "title": "Realtime thousand separators",
-    "author": "Theryx",
-    "labels": [
-      "frontend",
-      "curation"
     ]
   },
   {
