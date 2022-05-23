@@ -528,6 +528,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/onacut/issues/93",
+    "title": "Dockerise the frontend",
+    "author": "Asam237",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/onacut/issues/90",
     "title": "Add instructions to run the backend in a README.md",
     "author": "elhmn",
@@ -819,15 +825,21 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/podcasts/issues/35",
-    "title": "Fetch the list of podcasts from an actual yaml file",
-    "author": "godsakani",
+    "issue": "https://github.com/osscameroon/podcasts/issues/39",
+    "title": "make the current view responsive",
+    "author": "yokwejuste",
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/podcasts/issues/31",
-    "title": "Integrate player's interactions",
+    "issue": "https://github.com/osscameroon/podcasts/issues/38",
+    "title": "Setup linting checks (using github actions)",
     "author": "yokwejuste",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/podcasts/issues/35",
+    "title": "Fetch the list of podcasts from an actual yaml file",
+    "author": "godsakani",
     "labels": []
   }
 ]
