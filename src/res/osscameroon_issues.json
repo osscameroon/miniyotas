@@ -208,6 +208,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/56",
+    "title": "Make an article on osscameroon blog about jsgenerator",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/54",
     "title": "Commits , Releases Changelog updates Automation",
     "author": "FanJups",
