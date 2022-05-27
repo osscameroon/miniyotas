@@ -674,6 +674,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/global-github-actions/issues/83",
+    "title": "The `notify_on_pull_request_open` GitHub Action does not work for this repository",
+    "author": "elhmn",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/77",
     "title": "PR Notification failed due to long description",
     "author": "FanJups",
