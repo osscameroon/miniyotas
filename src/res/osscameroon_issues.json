@@ -220,6 +220,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/61",
+    "title": "Live Coding : May 17, 2022",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/59",
     "title": "java regex to validate an html file name",
     "author": "FanJups",
