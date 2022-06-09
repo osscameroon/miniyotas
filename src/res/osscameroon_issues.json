@@ -220,6 +220,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/64",
+    "title": "Example : Order is not respected -> \"a\" tag appears at the end instead of as it should appear",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/63",
     "title": "Why logging and stdout printing too... ?",
     "author": "Sanix-Darker",
