@@ -220,15 +220,15 @@
     ]
   },
   {
-    "issue": "https://github.com/osscameroon/js-generator/issues/64",
-    "title": "Example : Order is not respected -> \"a\" tag appears at the end instead of as it should appear",
+    "issue": "https://github.com/osscameroon/js-generator/issues/66",
+    "title": "How to deal with html code with only TextNodes ?",
     "author": "FanJups",
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/js-generator/issues/63",
-    "title": "Why logging and stdout printing too... ?",
-    "author": "Sanix-Darker",
+    "issue": "https://github.com/osscameroon/js-generator/issues/65",
+    "title": "Syntax Hightlighting Github md",
+    "author": "FanJups",
     "labels": []
   },
   {
@@ -258,12 +258,6 @@
   {
     "issue": "https://github.com/osscameroon/js-generator/issues/54",
     "title": "Commits , Releases Changelog updates Automation",
-    "author": "FanJups",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/js-generator/issues/52",
-    "title": "Declare a variable using \"var \" or not ?",
     "author": "FanJups",
     "labels": []
   },
