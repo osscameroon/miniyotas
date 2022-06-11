@@ -280,6 +280,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/41",
+    "title": "Self Closing Tag Issue",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/38",
     "title": "Make an Open Source project popular",
     "author": "FanJups",
