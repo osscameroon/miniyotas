@@ -220,6 +220,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/71",
+    "title": "Create an option to accept custom tags",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/66",
     "title": "How to deal with html code with only TextNodes ?",
     "author": "FanJups",
