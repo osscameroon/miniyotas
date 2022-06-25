@@ -588,12 +588,6 @@
     "labels": []
   },
   {
-    "issue": "https://github.com/osscameroon/onacut/issues/93",
-    "title": "Dockerise the frontend",
-    "author": "Asam237",
-    "labels": []
-  },
-  {
     "issue": "https://github.com/osscameroon/onacut/issues/90",
     "title": "Add instructions to run the backend in a README.md",
     "author": "elhmn",
