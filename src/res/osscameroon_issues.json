@@ -588,6 +588,22 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/onacut/issues/97",
+    "title": "Add the show on map button to see the position on the map",
+    "author": "Asam237",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
+    "issue": "https://github.com/osscameroon/onacut/issues/96",
+    "title": "Display the number of alerts per region on the list",
+    "author": "Asam237",
+    "labels": [
+      "frontend"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/onacut/issues/90",
     "title": "Add instructions to run the backend in a README.md",
     "author": "elhmn",
@@ -756,6 +772,16 @@
     "title": "Add the osscameroon branding `pdf` and `logos`",
     "author": "elhmn",
     "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/jobsika/issues/338",
+    "title": "Force the user to enter a real salary when contributing",
+    "author": "Zaker237",
+    "labels": [
+      "bug",
+      "backend",
+      "frontend"
+    ]
   },
   {
     "issue": "https://github.com/osscameroon/jobsika/issues/336",
