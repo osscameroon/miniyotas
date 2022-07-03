@@ -226,6 +226,18 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/75",
+    "title": "Use Maven to publish Java packages to a registry as part of your continuous integration (CI) workflow",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
+    "issue": "https://github.com/osscameroon/js-generator/issues/74",
+    "title": "Configure Apache Maven to publish packages to GitHub Packages and to use packages stored on GitHub Packages as dependencies in a Java project",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/71",
     "title": "Create an option to accept custom tags",
     "author": "FanJups",
@@ -246,12 +258,6 @@
   {
     "issue": "https://github.com/osscameroon/js-generator/issues/62",
     "title": "Handle GitHub Actions",
-    "author": "FanJups",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/js-generator/issues/61",
-    "title": "Live Coding : May 17, 2022",
     "author": "FanJups",
     "labels": []
   },
