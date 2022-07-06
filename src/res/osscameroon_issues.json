@@ -744,6 +744,12 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/global-github-actions/issues/87",
+    "title": "test: add some tests for the social_send_contribution service",
+    "author": "Sanix-Darker",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/83",
     "title": "The `notify_on_pull_request_open` GitHub Action does not work for this repository",
     "author": "elhmn",
@@ -758,12 +764,6 @@
   {
     "issue": "https://github.com/osscameroon/global-github-actions/issues/66",
     "title": "feat(report quiz): multiple choice",
-    "author": "pythonbrad",
-    "labels": []
-  },
-  {
-    "issue": "https://github.com/osscameroon/global-github-actions/issues/61",
-    "title": "fix(report quote): fail",
     "author": "pythonbrad",
     "labels": []
   },
