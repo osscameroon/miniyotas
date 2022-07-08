@@ -594,6 +594,15 @@
     "labels": []
   },
   {
+    "issue": "https://github.com/osscameroon/onacut/issues/104",
+    "title": "update project README",
+    "author": "Sanix-Darker",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ]
+  },
+  {
     "issue": "https://github.com/osscameroon/onacut/issues/97",
     "title": "Add the show on map button to see the position on the map",
     "author": "Asam237",
