@@ -226,6 +226,12 @@
     ]
   },
   {
+    "issue": "https://github.com/osscameroon/js-generator/issues/78",
+    "title": "Add illustrations to jsgenerator  webapp",
+    "author": "FanJups",
+    "labels": []
+  },
+  {
     "issue": "https://github.com/osscameroon/js-generator/issues/77",
     "title": "Maintain Open Source Project",
     "author": "FanJups",
