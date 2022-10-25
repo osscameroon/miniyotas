@@ -1,11 +1,29 @@
 <form>
-	<div class="form-group d-flex justify-content-center mt-5 mb-5">
+	<div class="form-group d-flex justify-content-center mt-5 mb-3">
   	  <div class="form-outline w-75">
     	  <input id="search-input" type="text" id="query" name="query" class="form-control" placeholder="search" value="{{query}}"/>
   	  </div>
   	  <button type="submit" class="btn btn-primary">
   	  	  <i class="fa fa-search" aria-hidden="true"></i>
   	  </button>
+      <a href="?sort={{or sortQuery "-yotas"}}" class="btn btn-primary ms-3">
+        <span>Sort by Yts</span>
+        {{#if (isLink sortQuery "-yotas") }}
+            <span>&uuarr;</span>
+        {{/if}}
+        {{#if (isLink sortQuery undefined) }}
+            <span>&uuarr;</span>
+        {{/if}}
+        {{#if (isLink sortQuery "yotas") }}
+            <span>&ddarr;</span>
+        {{/if}}
+      </a>
+      {{#if (ifDifferent sortQuery undefined) }}
+        <a href="." class="btn btn-primary ms-3">
+            <span>x</span>
+            Clear
+        </a>
+      {{/if}}
 	</div>
 </form>
 

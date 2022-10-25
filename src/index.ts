@@ -15,6 +15,11 @@ const getCurrentYear = () => {
   return d.getFullYear();
 }
 
+const sortOptions: {[key: string]: number} = {
+  'yotas': 1,
+  '-yotas': -1
+};
+
 //Set view path
 app.set("views", __dirname + "/views");
 app.engine(
@@ -53,19 +58,36 @@ const paginate = (items: Item[],page: number) => {
   return {count,items,interval};
 };
 
+const sort = (items: Record[], sortQuery: string = '') => {
+  const option = sortOptions[sortQuery];
+
+  if (!option) {
+    return items;
+  }
+
+  return items.sort((a, b) => a.yotas > b.yotas ? option : -option);
+}
+
 const handleContributors = async (req: any, res: any) => {
   const query = req.query.query || "";
+  let sortQuery = req.query.sort || "";
   let records: Record[] = await getValues();
 
+  records = sort(records, sortQuery);
   records = getRecordsMatchingQuery(query, records);
   const {count,items,interval} = paginate(records,parseInt(req.query.page) || 1);
   const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+
+  sortQuery = Object.keys(sortOptions).find((key: string) => {
+    return sortOptions[key] === -sortOptions[sortQuery];
+  });
 
   res.render("index", {
     fullUrl,
     records: items,
     link: "contributors",
     query,
+    sortQuery,
     currentYear: getCurrentYear(),
     count,
     interval,
