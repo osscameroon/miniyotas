@@ -30,17 +30,17 @@ export const constructUrl = (url: string, param: string): string => {
     }
   }
   return url.includes("&") ? data.join("&") : data.join("?");
-}
+};
 
 export const contains = (a: string, b:string): boolean => {
   return a.includes(b);
-}
+};
 
 export const or = (v1: boolean, v2: boolean): boolean => {
   return v1 || v2;
-}
+};
 
 export const repoName = (v1: string): string => {
   const part: Array<string> = v1.split('/');
   return `${part[3]}/${part[4]}`;
-}
+};
