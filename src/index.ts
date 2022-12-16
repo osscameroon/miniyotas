@@ -1,13 +1,14 @@
-import express, {Request, Response} from "express";
+import path from "path";
+import express, { Request, Response } from "express";
 import exphbs from "express-handlebars";
+import Fuse from "fuse.js";
 import * as helpers from "./helpers/handlebars";
 import { getValues, Record } from "./googlesheet";
-import {getShop, Item, Shop} from "./shop";
-import Fuse from "fuse.js";
-import {getIssues, Issue} from "./issues";
+import { getShop, Item, Shop } from "./shop";
+import { getIssues, Issue } from "./issues";
 
-const port: number = 3000;
-const limit: number  = 12;
+const port = 3000;
+const limit  = 12;
 const app = express();
 
 const getCurrentYear = () => {
@@ -15,7 +16,9 @@ const getCurrentYear = () => {
   return d.getFullYear();
 }
 
-//Set view path
+app.locals.gtag = process.env.GOOGLE_ANALYTICS_ID;
+
+// Set view path
 app.set("views", __dirname + "/views");
 app.engine(
   ".hbs",
@@ -44,7 +47,7 @@ const getRecordsMatchingQuery = (query: string, records: Record[]): Record[] => 
   });
 };
 
-const paginate = (items: Item[],page: number) => {
+const paginate = (items: Item[], page: number) => {
   const count = items.length;
   const startIndex = (page - 1) * limit;
   const endIndex  = page * limit;
@@ -53,12 +56,13 @@ const paginate = (items: Item[],page: number) => {
   return {count,items,interval};
 };
 
-const handleContributors = async (req: any, res: any) => {
-  const query = req.query.query || "";
+const handleContributors = async (req: Request, res: Response) => {
+  const query = req.query.query as string | undefined ;
+  const page = req.query.page as string | undefined ;
   let records: Record[] = await getValues();
 
-  records = getRecordsMatchingQuery(query, records);
-  const {count,items,interval} = paginate(records,parseInt(req.query.page) || 1);
+  records = getRecordsMatchingQuery(query ?? "", records);
+  const { count, items, interval } = paginate(records, parseInt(page ?? "1"));
   const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
 
   res.render("index", {
@@ -70,24 +74,28 @@ const handleContributors = async (req: any, res: any) => {
     count,
     interval,
     hasParams: fullUrl.includes('?'),
-    current: parseInt(req.query.page) || 1,
-    pages: Math.ceil(count/limit),
+    current: parseInt(page ?? "1"),
+    pages: Math.ceil(count / limit),
   });
 };
 
 app.get("/", handleContributors);
+
 app.get("/contributors", handleContributors);
-app.get("/v1/api/records", async (req: any, res: any) => {
+
+app.get("/v1/api/records", async (req, res) => {
   let records: Record[] = await getValues();
-    res.setHeader('Content-Type', 'application/json');
-    res.end(JSON.stringify(records, null, 3));
+
+  res.setHeader('Content-Type', 'application/json');
+  res.end(JSON.stringify(records, null, 3));
 });
 
-app.get("/shop", async (req: any, res: any) => {
+app.get("/shop", async (req, res) => {
   const shop: Shop = getShop();
   const shopItems: Item[] = shop?.items ?? [];
   const query = req.query.query || "";
-  const {count,items,interval} = paginate(shopItems,parseInt(req.query.page) || 1);
+  const page = req.query.page as string | undefined ;
+  const { count, items, interval } = paginate(shopItems,parseInt(page ?? "1") || 1);
   const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
 
   res.render("index", {
@@ -99,7 +107,7 @@ app.get("/shop", async (req: any, res: any) => {
     count,
     interval,
     hasParams: fullUrl.includes('?'),
-    current: parseInt(req.query.page) || 1,
+    current: parseInt(page ?? "1"),
     pages: Math.ceil(count/limit),
   });
 });
@@ -108,7 +116,9 @@ app.get("/issues", async (req: Request, res: Response) => {
   const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
   const issues: Issue[] = await getIssues();
   const query = req.query.query || "";
-  const {count,items,interval} = paginate(issues,parseInt(<string>req.query.page) || 1);
+  const page = req.query.page as string | undefined ;
+
+  const { count, items, interval } = paginate(issues,parseInt(page ?? "1"));
 
   res.render("index", {
     fullUrl,
@@ -119,14 +129,14 @@ app.get("/issues", async (req: Request, res: Response) => {
     count,
     interval,
     hasParams: fullUrl.includes('?'),
-    current: parseInt(<string>req.query.page) || 1,
-    pages: Math.ceil(count/limit),
+    current: parseInt(page ?? "1"),
+    pages: Math.ceil(count / limit),
   });
 });
 
-app.use('/views', express.static(__dirname + "/views"))
-app.use('/res', express.static(__dirname + "/res"))
-
+app.use('/views', express.static(__dirname + "/views"));
+app.use('/res', express.static(__dirname + "/res"));
+app.use(express.static(path.resolve(__dirname, '../public')));
 app.listen(port, () => {
-  console.log(`The application is listening on port ${port}`);
+  console.log(`Application started on URL http://localhost:${port} 🎉`);
 });

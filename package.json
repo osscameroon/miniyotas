@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn build && node ./dist",
-    "dev": "ENVIRONMENT=dev nodemon ./src/index.ts",
+    "dev": "ENVIRONMENT=dev GOOGLE_ANALYTICS_ID= nodemon ./src/index.ts",
     "build": "rm -rf ./dist/views ./dist/res; tsc --project ./; cp -R ./src/views ./src/res ./dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

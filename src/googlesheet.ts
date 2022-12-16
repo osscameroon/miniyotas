@@ -49,7 +49,7 @@ export const getFixtureValues = (): Record[] => {
 }
 
 export const getValues = async (): Promise<Record[]> => {
-  if (process.env.ENVIRONMENT === "dev") {
+  if (process.env.ENVIRONMENT !== "production") {
        return getFixtureValues()
   }
 
