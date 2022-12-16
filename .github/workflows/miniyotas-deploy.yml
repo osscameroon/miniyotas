@@ -1,23 +1,55 @@
-name: miniyotas deploys
+name: Deploy miniyotas in prod
 
 on:
   push:
     branches:
       - main
 
-jobs:
-    build:
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '15'
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
 
-      - name: Executing remote  command
-        uses: appleboy/ssh-action@master
+jobs:
+  build-and-push-prod:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@v1
         with:
-          host: ${{ secrets.DROPLET_HOST }}
-          username: ${{ secrets.DROPLET_DEPLOY_USERNAME }}
-          key: ${{ secrets.DROPLET_DEPLOY_SSHKEY }}
-          script: cd /home/deploy/miniyotas && git stash; git pull --rebase origin main; git stash apply; yarn install && yarn build && pm2 restart miniyotas && pm2 save
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=sha,enable=true,priority=100,prefix=,suffix=,format=long
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          file: Dockerfile.prod
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Deploy in production
+        uses: osscameroon/sammy-actions@v1.5
+        with:
+          service: miniyotas
+          type: compose
+          env: prod
+          patch-field: ".services.webapp.image"
+          patch-value: ${{ steps.meta.outputs.tags }}
+          file: miniyotas-prod-stack.yml
+          gh-token: ${{ secrets.GA_WORKFLOW_DEPLOYMENTS_TOKEN }}
