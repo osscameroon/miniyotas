@@ -1,0 +1,33 @@
+FROM node:16-buster as builder
+
+RUN mkdir /app && chmod 777 /app
+
+WORKDIR /app
+
+COPY package.json .
+
+RUN yarn install
+
+COPY src ./src/
+COPY public ./public/
+COPY src tsconfig.json ./
+
+RUN yarn build
+
+FROM node:16-alpine as dependencies
+WORKDIR /app
+COPY --from=builder /app/package.json /app/yarn.lock ./
+RUN yarn install --production
+
+FROM node:16-alpine AS production
+ENV NODE_ENV=production
+WORKDIR /app
+COPY --chown=node:node --from=dependencies /app/package.json /app/yarn.lock ./
+COPY --chown=node:node --from=dependencies /app/node_modules ./node_modules
+RUN mkdir public src && chown node:node -R public
+COPY --chown=node:node --from=builder /app/dist ./src
+COPY --chown=node:node --from=builder /app/public ./public
+
+EXPOSE 3000
+
+CMD ["node", "src/index.js"]
