@@ -1,21 +1,8 @@
 import { GoogleSpreadsheet } from "google-spreadsheet";
 import { extractHandleFromGitHubUrl } from "./helpers/github";
-import fs from "fs";
 
-const serviceAccount = ".secrets/service-account.json";
 const spreadsheetID = "1T3eiwqCds2kvBsC2L4vh2kEE8zCa3ZaNHzB30spRHpw";
-
-const getCreds = (): string => {
-  let data: string = "";
-
-  try {
-    data = fs.readFileSync(serviceAccount, "utf8");
-  } catch (err) {
-    console.error("failed to load service account: ", err);
-  }
-
-  return data;
-};
+const serviceAccountConfig = process.env.SERVICE_ACCOUNT_CONFIG;
 
 export type Record = {
   github_account: string;
@@ -49,11 +36,15 @@ export const getFixtureValues = (): Record[] => {
 }
 
 export const getValues = async (): Promise<Record[]> => {
-  if (process.env.ENVIRONMENT !== "production") {
+  if (process.env.NODE_ENV !== "production") {
        return getFixtureValues()
   }
 
-  const creds = JSON.parse(getCreds());
+  if (!serviceAccountConfig) {
+    throw new Error("The service account credentials not found!");
+  }
+
+  const creds = JSON.parse(serviceAccountConfig);
 
   const doc = new GoogleSpreadsheet(spreadsheetID);
   await doc.useServiceAccountAuth({

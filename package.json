@@ -1,12 +1,15 @@
 {
   "name": "miniyotas",
   "version": "1.0.0",
-  "description": "minimalistic version of osscameroon recognition system",
+  "description": "minimalistic version of OSS Cameroon recognition system",
   "main": "index.js",
   "scripts": {
     "start": "yarn build && node ./dist",
-    "dev": "ENVIRONMENT=dev GOOGLE_ANALYTICS_ID= nodemon ./src/index.ts",
+    "dev": "GOOGLE_ANALYTICS_ID= nodemon ./src/index.ts",
     "build": "rm -rf ./dist/views ./dist/res; tsc --project ./; cp -R ./src/views ./src/res ./dist/",
+    "package": "docker build -t miniyotas:latest -f .",
+    "package:prod": "docker build -t miniyotas-prod:latest -f Dockerfile.prod .",
+    "package:run:prod": "docker run -it -p 3000:3000 --env-file .env --name miniyotas_prod miniyotas-prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
