@@ -3,7 +3,7 @@ import express, { Request, Response } from "express";
 import exphbs from "express-handlebars";
 import Fuse from "fuse.js";
 import * as helpers from "./helpers/handlebars";
-import { getValues, Record } from "./googlesheet";
+import { getYotas, Record } from "./yotas";
 import { getShop, Item, Shop } from "./shop";
 import { getIssues, Issue } from "./issues";
 
@@ -59,7 +59,7 @@ const paginate = (items: Item[], page: number) => {
 const handleContributors = async (req: Request, res: Response) => {
   const query = req.query.query as string | undefined ;
   const page = req.query.page as string | undefined ;
-  let records: Record[] = await getValues();
+  let records: Record[] = await getYotas();
 
   records = getRecordsMatchingQuery(query ?? "", records);
   const { count, items, interval } = paginate(records, parseInt(page ?? "1"));
@@ -84,7 +84,7 @@ app.get("/", handleContributors);
 app.get("/contributors", handleContributors);
 
 app.get("/v1/api/records", async (req, res) => {
-  let records: Record[] = await getValues();
+  let records: Record[] = await getYotas();
 
   res.setHeader('Content-Type', 'application/json');
   res.end(JSON.stringify(records, null, 3));
