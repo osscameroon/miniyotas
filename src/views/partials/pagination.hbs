@@ -17,12 +17,12 @@
         <li class="disabled page-item"><a class="page-link">...</a></li>
     {{/if}}
         {{#each (displayPagesNumber interval current pages)}}
-            {{#if (ifEqual . current 0)}}
+            {{#if (ifEqual . @root.current 0)}}
                 <li class="active page-item"><a class="page-link">{{ . }}</a></li>
             {{else}}
                 {{#if @root.hasParams}}
                     {{#if (contains @root.fullUrl "page")}}
-                        <li class="page-item"><a href="{{{constructUrl @root.fullUrl .}}}" class="page-link">{{ .  }}</a></li>
+                        <li class="page-item {{{addClassIfEqual . @root.current 0 'active'}}}"><a href="{{{constructUrl @root.fullUrl .}}}" class="page-link">{{ . }}</a></li>
                     {{else}}
                         <li class="page-item"><a href="{{@root.fullUrl}}&page={{.}}" class="page-link">{{ . }}</a></li>
                     {{/if}}
