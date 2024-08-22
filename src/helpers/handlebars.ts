@@ -44,3 +44,7 @@ export const repoName = (v1: string): string => {
   const part: Array<string> = v1.split('/');
   return `${part[3]}/${part[4]}`;
 };
+
+export const addClassIfEqual = (v1: number, v2: number, extra: number, v3: string): string => {
+  return v1 === (v2+extra) ? v3 : '';
+};
