@@ -14,7 +14,7 @@ export interface Item {
 
   //the github_handle field is used to display
   //an image of one of the mentors providing
-  //developper support
+  //developer support
   github_handle?: string;
 };
 
