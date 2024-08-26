@@ -63,7 +63,7 @@ const handleContributors = async (req: Request, res: Response) => {
 
   records = getRecordsMatchingQuery(query ?? "", records);
   const { count, items, interval } = paginate(records, parseInt(page ?? "1"));
-  const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+  const fullUrl = req.originalUrl;
 
   res.render("index", {
     fullUrl,
@@ -96,7 +96,7 @@ app.get("/shop", async (req, res) => {
   const query = req.query.query || "";
   const page = req.query.page as string | undefined ;
   const { count, items, interval } = paginate(shopItems,parseInt(page ?? "1") || 1);
-  const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+  const fullUrl = req.originalUrl;
 
   res.render("index", {
     fullUrl,
@@ -113,7 +113,7 @@ app.get("/shop", async (req, res) => {
 });
 
 app.get("/issues", async (req: Request, res: Response) => {
-  const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+  const fullUrl = req.originalUrl;
   const issues: Issue[] = await getIssues();
   const query = req.query.query || "";
   const page = req.query.page as string | undefined ;
