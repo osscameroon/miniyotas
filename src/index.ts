@@ -58,10 +58,19 @@ const paginate = (items: Item[], page: number) => {
 
 const handleContributors = async (req: Request, res: Response) => {
   const query = req.query.query as string | undefined ;
+  const sort = req.query.sort as string | undefined;  // Get the sort option
   const page = req.query.page as string | undefined ;
   let records: Record[] = await getYotas();
 
   records = getRecordsMatchingQuery(query ?? "", records);
+
+  // Apply sorting based on the selected sort option
+  if (sort === "yotas_asc") {
+    records.sort((a, b) => a.yotas - b.yotas);
+  } else if (sort === "yotas_desc") {
+    records.sort((a, b) => b.yotas - a.yotas);
+  }
+
   const { count, items, interval } = paginate(records, parseInt(page ?? "1"));
   const fullUrl = req.originalUrl;
 
@@ -70,6 +79,7 @@ const handleContributors = async (req: Request, res: Response) => {
     records: items,
     link: "contributors",
     query,
+    sort,
     currentYear: getCurrentYear(),
     count,
     interval,

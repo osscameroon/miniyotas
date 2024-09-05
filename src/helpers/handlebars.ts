@@ -10,6 +10,10 @@ export const ifEqual = (a: number, b: number,extra: number): boolean => {
   return a === (b+extra);
 };
 
+export const eq = (a: string, b: string): boolean => {
+  return a === b;
+};
+
 export const ifDifferent = (a: number, b: number): boolean => {
   return a !== b;
 };

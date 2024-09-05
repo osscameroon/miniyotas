@@ -1,8 +1,13 @@
 <form>
 	<div class="form-group d-flex justify-content-center mt-5 mb-5">
-  	  <div class="form-outline w-75">
+  	  <div class="form-outline w-50">
     	  <input id="search-input" type="text" id="query" name="query" class="form-control" placeholder="search" value="{{query}}"/>
   	  </div>
+	  <select id="sort-select" class="form-select w-25 mx-4 {{#unless sort}}text-muted{{/unless}}" name="sort">
+		  <option value="" disabled selected hidden>sort by...</option>
+           <option class="text-dark" value="yotas_asc" {{#if (eq sort "yotas_asc")}}selected{{/if}}>Yotas (Low to High)</option>
+           <option class="text-dark" value="yotas_desc" {{#if (eq sort "yotas_desc")}}selected{{/if}}>Yotas (High to Low)</option>
+      </select>
   	  <button type="submit" class="btn btn-primary">
   	  	  <i class="fa fa-search" aria-hidden="true"></i>
   	  </button>
@@ -41,3 +46,9 @@
 {{#if  (isLower 0 pages)}}
     {{>pagination}}
 {{/if}}
+
+<script>
+    document.getElementById('sort-select').addEventListener('change', function() {
+        this.form.submit();
+    });
+</script>
